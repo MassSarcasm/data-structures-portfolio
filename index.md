@@ -9,3 +9,4 @@ Hello! My name is Josiah Bradshaw. I am a returning UNCC student as a Junior exc
 ## Portfolio
 - [Blog](blog.md)
 - [Projects](projects.md)
+- [Links](links.md)
