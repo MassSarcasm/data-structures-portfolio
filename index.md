@@ -4,9 +4,9 @@
 
 <a href="{{ '/' | relative_url }}">Home</a>
 <a href="{{ '/aboutme' | relative_url }}">About Me</a>
-<a href="projects.md">Projects</a>
-<a href="blog.md">Blog</a>
-<a href="links.md">Links</a>
+<a href="{{ '/projects' | relative_url }}">Projects</a>
+<a href="{{ '/blog' | relative_url }}">Blog</a>
+<a href="{{ '/links' | relative_url }}">Links</a>
 
 </div>
 
@@ -26,20 +26,20 @@ I'm particularly interested in using data to explore real-world problems, find m
 
 <div class="project-grid">
 
-<a href="projects.md">
-<img src="assets/images/project1.png" alt="Project 1">
+<a href="{{ '/projects' | relative_url }}">
+<img src="{{ '/assets/images/project1.png' | relative_url }}" alt="Project 1">
 </a>
 
-<a href="projects.md">
-<img src="assets/images/project2.png" alt="Project 2">
+<a href="{{ '/projects' | relative_url }}">
+<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Project 2">
 </a>
 
-<a href="projects.md">
-<img src="assets/images/project3.png" alt="Project 3">
+<a href="{{ '/projects' | relative_url }}">
+<img src="{{ '/assets/images/project3.png' | relative_url }}" alt="Project 3">
 </a>
 
-<a href="projects.md">
-<img src="assets/images/project4.png" alt="Project 4">
+<a href="{{ '/projects' | relative_url }}">
+<img src="{{ '/assets/images/project4.png' | relative_url }}" alt="Project 4">
 </a>
 
 </div>
