@@ -2,6 +2,7 @@
 
 <div class="nav-links">
 
+<a href="index.md">Home</a>
 <a href="aboutme.md">About Me</a>
 <a href="projects.md">Projects</a>
 <a href="blog.md">Blog</a>
