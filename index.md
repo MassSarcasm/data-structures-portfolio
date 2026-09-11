@@ -26,12 +26,16 @@ I'm particularly interested in using data to explore real-world problems, find m
 
 <div class="project-grid">
 
-<a href="{{ '/projects' | relative_url }}">
-<img src="{{ '/assets/images/project1.png' | relative_url }}" alt="Project 1">
+<a href="{{ '/projectsall/project1panthers' | relative_url }}">
+<img src="{{ '/assets/images/project1.png' | relative_url }}" alt="Bank of America Renovations Analysis">
 </a>
 
-<a href="{{ '/projects' | relative_url }}">
-<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Project 2">
+<a href="{{ '/projectsall/project2attend' | relative_url }}">
+<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
+</a>
+
+<a href="{{ '/projectsall/project3credit' | relative_url }}">
+<img src="{{ '/assets/images/project3.png' | relative_url }}" alt="Credit Approval Analysis">
 </a>
 
 </div>
