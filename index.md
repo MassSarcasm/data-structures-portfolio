@@ -28,7 +28,6 @@ I'm currently developing my skills in:
 - Linear Algebra
 
 My goal is to graduate with a strong collection of projects that demonstrate what I've learned and how I can apply data science to real-world questions.
-
 ---
 
 ## Portfolio
