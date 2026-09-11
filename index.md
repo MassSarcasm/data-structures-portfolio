@@ -1,6 +1,8 @@
 # Josiah Bradshaw
 
-[← Home](index.md){: .home-link}
+<div class="home-container">
+
+<a href="index.md" class="home-link">Home</a>
 
 <div class="nav-links">
 
@@ -11,15 +13,15 @@
 
 </div>
 
----
+<h3>Data Science Student | UNC Charlotte</h3>
 
-### Data Science Student | UNC Charlotte
+<p>Welcome to my Data Science portfolio.</p>
 
-Welcome to my Data Science portfolio.
+<p>I'm a returning student at UNC Charlotte pursuing a degree in Data Science. This portfolio documents my coursework, projects, and growth throughout my studies.</p>
 
-I'm a returning student at UNC Charlotte pursuing a degree in Data Science. This portfolio documents my coursework, projects, and growth throughout my studies.
+<p>I'm particularly interested in using data to explore real-world problems, find meaningful patterns, and communicate insights through analysis and visualization.</p>
 
-I'm particularly interested in using data to explore real-world problems, find meaningful patterns, and communicate insights through analysis and visualization.
+</div>
 
 ---
 
