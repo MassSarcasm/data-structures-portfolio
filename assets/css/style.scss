@@ -100,30 +100,55 @@ p {
 
 
 /* =========================
-   Home Link
+   Centered Homepage Content
+   ========================= */
+
+.home-container {
+  text-align: center;
+}
+
+.home-container h3 {
+  text-align: center;
+}
+
+.home-container p {
+  text-align: center;
+}
+
+
+/* =========================
+   Home Button
    ========================= */
 
 .home-link {
-  display: inline-block;
-  color: var(--cyan);
+  display: block;
+  width: 220px;
+  margin: 0 auto 25px;
+
+  box-sizing: border-box;
+
+  color: white;
+  background: var(--blue);
+
   font-weight: 700;
+  font-size: 17px;
+
   text-decoration: none;
 
-  background: var(--navy-light);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  padding: 13px 25px;
 
-  padding: 10px 18px;
-  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 1px solid var(--blue);
 
   transition: all 0.2s ease;
 }
 
 .home-link:hover {
   color: white;
-  background: var(--blue);
-  border-color: var(--blue);
-  transform: translateY(-2px);
+  background: var(--hover);
+  border-color: var(--hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
 }
 
 
@@ -133,6 +158,8 @@ p {
 
 .nav-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
   margin: 10px 0 45px;
 }
@@ -221,7 +248,7 @@ section > h3 {
 
 
 /* =========================
-   Links
+   General Links
    ========================= */
 
 a {
@@ -260,4 +287,5 @@ a:hover {
   .project-grid {
     grid-template-columns: 1fr;
   }
+
 }
