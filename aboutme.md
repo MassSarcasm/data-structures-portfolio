@@ -31,3 +31,12 @@
 <p>Thank you for visiting my portfolio!</p>
 
 </div>
+
+---
+
+## <u><strong>Skills</strong></u>
+
+- **Programming Languages:** Python, Java, SQL, HTML, Jupyter Notebooks
+- **Familiar Operating Systems:** macOS, Windows, Linux
+- **Certifications:** IRP Apple Repair Certification, WISE 1, WISE 2, Samsung Repair Certification
+- **Technical Skills:** Microsoft Office Suite, Device Technician, Generative AI, Data Automation, Advanced Linux Distribution Knowledge, Cloudflare
