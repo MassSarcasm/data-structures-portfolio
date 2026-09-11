@@ -1,2 +1,2 @@
 # data-structures-portfolio
-Portfolio for Data Structures Class
+Portfolio for Data Structures Classs.
