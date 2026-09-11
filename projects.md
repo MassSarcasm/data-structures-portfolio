@@ -1,80 +1,49 @@
+# [Josiah Bradshaw](index.md){: .site-title}
+
+<div class="nav-links">
+
+<a href="{{ '/' | relative_url }}">Home</a>
+<a href="{{ '/aboutme' | relative_url }}">About Me</a>
+<a href="{{ '/projects' | relative_url }}">Projects</a>
+<a href="{{ '/blog' | relative_url }}">Blog</a>
+<a href="{{ '/links' | relative_url }}">Links</a>
+
+</div>
+
+---
+
 # Projects
 
 A collection of my Data Science projects, coursework, and independent work.
 
 ---
 
-<div class="project-card">
+<div class="projects-page">
 
-## Credit Approval Analysis
+<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-button">
+Bank of America Renovations Analysis
+</a>
 
-### Overview
-
-An analysis of credit application data to investigate which factors are associated with successful credit approval.
-
-### Key Variables
-
-- Credit Score
-- Debt-to-Income Ratio
-- Employment Years
-- Credit Application Approval
-
-### Tools
-
-<span class="tag">Python</span>
-<span class="tag">Pandas</span>
-<span class="tag">Seaborn</span>
-<span class="tag">Matplotlib</span>
-<span class="tag">Statistics</span>
-
-### Visualizations
-
-*Add your strongest visualization here.*
-
+<div class="project-placeholder">
+  <span>Project 1 Visual</span>
 </div>
 
----
 
-<div class="project-card">
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button">
+Post Covid-19 High School Attendance Analysis
+</a>
 
-## NC Transportation Analysis
-
-### Overview
-
-Exploration of transportation patterns across North Carolina counties using demographic and transportation data.
-
-### Tools
-
-<span class="tag">Python</span>
-<span class="tag">Pandas</span>
-<span class="tag">Seaborn</span>
-<span class="tag">Matplotlib</span>
-
-### Visualizations
-
-*Add your strongest visualization here.*
-
+<div class="project-placeholder">
+  <span>Project 2 Visual</span>
 </div>
 
----
 
-<div class="project-card">
+<a href="{{ '/projectsall/project3credit' | relative_url }}" class="project-button">
+Credit Approval Analysis
+</a>
 
-## Data Structures Portfolio
-
-Coursework and programming projects demonstrating my understanding of data structures and algorithms.
-
-### Topics
-
-- Lists
-- Stacks
-- Queues
-- Trees
-- Hash Tables
-- Algorithms
-
-<span class="tag">Python</span>
-<span class="tag">Data Structures</span>
-<span class="tag">Algorithms</span>
+<div class="project-placeholder">
+  <span>Project 3 Visual</span>
+</div>
 
 </div>
