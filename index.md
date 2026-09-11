@@ -3,7 +3,7 @@
 <div class="nav-links">
 
 <a href="{{ '/' | relative_url }}">Home</a>
-<a href="aboutme.md">About Me</a>
+<a href="{{ '/aboutme' | relative_url }}">About Me</a>
 <a href="projects.md">Projects</a>
 <a href="blog.md">Blog</a>
 <a href="links.md">Links</a>
