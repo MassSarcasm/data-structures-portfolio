@@ -34,12 +34,4 @@ I'm particularly interested in using data to explore real-world problems, find m
 <img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Project 2">
 </a>
 
-<a href="{{ '/projects' | relative_url }}">
-<img src="{{ '/assets/images/project3.png' | relative_url }}" alt="Project 3">
-</a>
-
-<a href="{{ '/projects' | relative_url }}">
-<img src="{{ '/assets/images/project4.png' | relative_url }}" alt="Project 4">
-</a>
-
 </div>
