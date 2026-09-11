@@ -1,45 +1,193 @@
+---
+---
+
+/* =========================
+   Color Variables
+   ========================= */
+
+:root {
+  --navy: #0B132B;
+  --navy-light: #111C36;
+  --card: #17233D;
+  --blue: #3B82F6;
+  --cyan: #38BDF8;
+  --text: #F8FAFC;
+  --text-muted: #CBD5E1;
+  --border: #263653;
+  --hover: #60A5FA;
+}
+
+
+/* =========================
+   Global Page
+   ========================= */
+
+html,
+body {
+  background: var(--navy);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+}
+
+
+/* =========================
+   Remove Minimal Theme Sidebar
+   ========================= */
+
+.wrapper {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: none !important;
+}
+
+section {
+  width: auto;
+  float: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* =========================
+   Main Content
+   ========================= */
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 40px 80px;
+}
+
+
+/* =========================
+   Headings
+   ========================= */
+
+h1 {
+  color: var(--text);
+  font-size: 42px;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: var(--text);
+  font-size: 30px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: var(--cyan);
+}
+
+p {
+  color: var(--text-muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
 /* =========================
    Home Link
    ========================= */
 
 .home-link {
-  font-weight: 700;
-  text-decoration: underline;
+  display: inline-block;
   color: var(--cyan);
+  font-weight: 700;
+  text-decoration: none;
+
+  background: var(--navy-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  padding: 10px 18px;
+  margin-bottom: 25px;
+
+  transition: all 0.2s ease;
 }
 
 .home-link:hover {
-  color: var(--hover);
+  color: white;
+  background: var(--blue);
+  border-color: var(--blue);
+  transform: translateY(-2px);
 }
 
 
 /* =========================
-   Navigation Links
+   Navigation Buttons
    ========================= */
 
 .nav-links {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 45px;
-  margin: 25px 0 40px;
+  gap: 15px;
+  margin: 10px 0 45px;
 }
 
 .nav-links a {
-  color: var(--cyan);
+  display: inline-block;
+
+  color: white;
+  background: var(--blue);
+
   font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  font-size: 18px;
+  font-size: 17px;
+
+  text-decoration: none;
+
+  padding: 13px 25px;
+
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+
+  transition: all 0.2s ease;
 }
 
 .nav-links a:hover {
-  color: var(--hover);
+  background: var(--hover);
+  border-color: var(--hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
 }
 
 
 /* =========================
-   Project Images
+   Horizontal Dividers
+   ========================= */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 35px 0;
+}
+
+
+/* =========================
+   Introduction
+   ========================= */
+
+section > h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+
+/* =========================
+   Featured Projects
    ========================= */
 
 .project-grid {
@@ -51,20 +199,37 @@
 
 .project-grid a {
   display: block;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px;
+
+  transition: all 0.25s ease;
+}
+
+.project-grid a:hover {
+  border-color: var(--blue);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
 }
 
 .project-grid img {
   width: 100%;
   display: block;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  transition: 0.2s;
+  border-radius: 8px;
 }
 
-.project-grid img:hover {
-  transform: translateY(-4px);
-  border-color: var(--blue);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+/* =========================
+   Links
+   ========================= */
+
+a {
+  color: var(--cyan);
+}
+
+a:hover {
+  color: var(--hover);
 }
 
 
@@ -74,13 +239,25 @@
 
 @media screen and (max-width: 720px) {
 
+  section {
+    padding: 30px 20px 60px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
   .nav-links {
-    gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    text-align: center;
+    width: auto;
   }
 
   .project-grid {
     grid-template-columns: 1fr;
   }
-
 }
