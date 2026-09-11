@@ -20,6 +20,8 @@ A collection of my Data Science projects, coursework, and independent work.
 
 <div class="projects-page">
 
+<div class="project-card">
+
 <a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-button">
 Bank of America Renovations Analysis
 </a>
@@ -28,6 +30,10 @@ Bank of America Renovations Analysis
   <span>Project 1 Visual</span>
 </div>
 
+</div>
+
+
+<div class="project-card">
 
 <a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button">
 Post Covid-19 High School Attendance Analysis
@@ -37,6 +43,10 @@ Post Covid-19 High School Attendance Analysis
   <span>Project 2 Visual</span>
 </div>
 
+</div>
+
+
+<div class="project-card">
 
 <a href="{{ '/projectsall/project3credit' | relative_url }}" class="project-button">
 Credit Approval Analysis
@@ -44,6 +54,8 @@ Credit Approval Analysis
 
 <div class="project-placeholder">
   <span>Project 3 Visual</span>
+</div>
+
 </div>
 
 </div>
