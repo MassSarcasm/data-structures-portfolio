@@ -245,29 +245,17 @@ section > p {
    About Me
    ========================= */
 
-.about-page p {
-  color: #FFFFFF;
-  font-size: 17px;
-  line-height: 1.7;
+.about-page {
+  display: block;
 }
 
-.about-header {
-  display: grid;
-
-  grid-template-columns: minmax(0, 1fr) 260px;
-
-  align-items: start;
-
-  column-gap: 60px;
-
-  margin-bottom: 35px;
+.about-page::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.about-intro {
-  min-width: 0;
-}
-
-.about-intro h2 {
+.about-page h2 {
   color: var(--text);
 
   font-size: 30px;
@@ -276,19 +264,27 @@ section > p {
   margin-bottom: 25px;
 }
 
-.about-intro p {
+.about-page p {
   color: #FFFFFF;
 
-  margin-top: 0;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
+
+/* =========================
+   About Me Photo
+   ========================= */
+
 .about-photo {
+  float: right;
+
   width: 260px;
   height: 280px;
 
   object-fit: cover;
 
-  justify-self: end;
+  margin: 0 0 30px 55px;
 
   border-radius: 12px;
 
@@ -353,19 +349,15 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .about-header {
-    grid-template-columns: 1fr;
-
-    row-gap: 25px;
-
-    margin-bottom: 30px;
-  }
-
   .about-photo {
+    float: none;
+
+    display: block;
+
     width: 220px;
     height: 240px;
 
-    justify-self: start;
+    margin: 0 0 30px 0;
   }
 
 }
