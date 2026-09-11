@@ -242,6 +242,52 @@ section > p {
 
 
 /* =========================
+   About Me
+   ========================= */
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 40px;
+
+  margin-bottom: 35px;
+}
+
+.about-intro {
+  flex: 1;
+}
+
+.about-intro h1 {
+  margin-top: 0;
+}
+
+.about-photo {
+  width: 220px;
+  height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+
+  border: 2px solid var(--border);
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+
+  transition: all 0.25s ease;
+}
+
+.about-photo:hover {
+  border-color: var(--blue);
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+}
+
+
+/* =========================
    General Links
    ========================= */
 
@@ -271,17 +317,29 @@ a:hover {
   .nav-links {
     flex-direction: column;
     align-items: flex-start;
+
     gap: 10px;
   }
 
   .nav-links a {
     text-align: center;
+
     width: auto;
     min-width: 120px;
   }
 
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .about-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-photo {
+    width: 180px;
+    height: 180px;
   }
 
 }
