@@ -24,18 +24,44 @@ I'm particularly interested in using data to explore real-world problems, find m
 
 ## Featured Projects
 
-<div class="project-grid">
+<div class="featured-projects">
+
+<div class="featured-project">
+
+<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
+Bank of America Renovations Analysis
+</a>
 
 <a href="{{ '/projectsall/project1panthers' | relative_url }}">
 <img src="{{ '/assets/images/project1.png' | relative_url }}" alt="Bank of America Renovations Analysis">
+</a>
+
+</div>
+
+
+<div class="featured-project">
+
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
+Post Covid-19 High School Attendance Analysis
 </a>
 
 <a href="{{ '/projectsall/project2attend' | relative_url }}">
 <img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
 </a>
 
+</div>
+
+
+<div class="featured-project">
+
+<a href="{{ '/projectsall/project3credit' | relative_url }}" class="project-link">
+Credit Approval Analysis
+</a>
+
 <a href="{{ '/projectsall/project3credit' | relative_url }}">
 <img src="{{ '/assets/images/project3.png' | relative_url }}" alt="Credit Approval Analysis">
 </a>
+
+</div>
 
 </div>
