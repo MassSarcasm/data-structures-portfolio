@@ -24,7 +24,7 @@
 
 </div>
 
-<img src="{{ '/assets/images/josiah.jpg' | relative_url }}" alt="Josiah Bradshaw" class="about-photo">
+<img src="{{ '/assets/images/josiah.jpeg' | relative_url }}" alt="Josiah Bradshaw" class="about-photo">
 
 </div>
 
