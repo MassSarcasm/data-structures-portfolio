@@ -51,17 +51,4 @@ Post Covid-19 High School Attendance Analysis
 
 </div>
 
-
-<div class="featured-project">
-
-<a href="{{ '/projectsall/project3credit' | relative_url }}" class="project-link">
-Credit Approval Analysis
-</a>
-
-<a href="{{ '/projectsall/project3credit' | relative_url }}">
-<img src="{{ '/assets/images/project3.png' | relative_url }}" alt="Credit Approval Analysis">
-</a>
-
-</div>
-
 </div>
