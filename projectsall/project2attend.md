@@ -43,7 +43,7 @@
 
 In this research project, I pulled several sources of data using APIs from the United States Census Bureau and the Charlotte Quality of Life Explorer to explore how high school attendance has been affected since the COVID-19 pandemic.
 
-High school attendance has not fully recovered to pre-COVID-19 levels. Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
+High school attendance has not fully recovered to pre-COVID-19 levels as a matter of fact it the observation has been defined as "chronic absenteeism". Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
 
 There are several variables that may contribute to chronic absenteeism. Morgan Polikoff and Nicolas Pardo explain that some contributing factors include students with disabilities and homelessness, with low-income students representing one of the largest groups affected by chronic absenteeism (Polikoff & Pardo, 2025).
 
@@ -89,13 +89,11 @@ Below are two visualizations that help illustrate these relationships.
 
 The data collected revealed several factors that could help explain chronic absenteeism for high schoolers.
 
-The first graph shows that high school attendance dipped heavily during COVID-19 and never fully recovered. It also shows that student enrollment is not a major factor, as enrollment stays relatively consistent throughout the period. Toward the end of the graph, we see a slight recovery in absences, but as of last year, absences began to rise again.
+The first graph shows that high school attendance dipped heavily during COVID-19 and never fully recovered. It also shows that student enrollment is not a major factor, as enrollment stays relatively consistent throughout the period. Toward the end of the graph, we see a slight recovery in absences, but as of last year, absences began to rise again. Research findings support that chronic absenteeism increased following the COVID-19 pandemic (Dee, 2024; Polikoff & Pardo, 2025).
 
-Research findings support that chronic absenteeism increased following the COVID-19 pandemic (Dee, 2024; Polikoff & Pardo, 2025).
+The second graph shows three rising factors that could play into attendance. The first is median household income. While household income has risen, it does not account for inflation. To help account for this, I pulled median owner costs, which shows us the rising cost to own and operate a home. These costs are rising at a similar rate to income.
 
-The second graph shows three rising factors that could play into attendance. The first is median household income. While household income has risen, it does not account for inflation. To help account for this, we pulled median owner costs, which shows us the rising cost to own and operate a home. These costs are rising at a similar rate to income.
-
-We also pulled the variable for teenager employment for ages 16–19 since 2019. A study published in the Journal of Research on Adolescence found that adolescent employment can be associated with negative educational outcomes, particularly when students work longer hours (Vuolo et al., 2012).
+I also pulled the variable for teenager employment for ages 16–19 since 2019. A study published in the Journal of Research on Adolescence found that adolescent employment can be associated with negative educational outcomes, particularly when students work longer hours (Vuolo et al., 2012).
 
 These higher costs and employment factors can add stress to families and students attending high school for the first time. Increased household expenses and homeowner costs not only reduce available budgets but can also contribute to displacement for some families, potentially increasing absences and forcing teenagers to join the workforce at higher rates than we've seen before.
 
