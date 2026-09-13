@@ -111,7 +111,7 @@ Dee, T. S. (2024). Higher chronic absenteeism threatens academic recovery from t
 [Read the article](https://doi.org/10.1073/pnas.2312249121)
 
 Polikoff, M., & Pardo, N. (2025). Who's absent from school? A two-state examination of trends in absenteeism before and after COVID-19. American Enterprise Institute. 
-[Read the report](https://eric.ed.gov/?id=ED677931)
+[Read the article](https://eric.ed.gov/?id=ED677931)
 
 Vuolo, M., Staff, J., & Mortimer, J. T. (2012). Adolescent work, school, and the transition to adulthood. Journal of Research on Adolescence
 [Read the article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7822572/)
