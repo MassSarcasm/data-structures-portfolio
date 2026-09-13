@@ -71,10 +71,16 @@ Below are two visualizations that help illustrate these relationships.
 
 ## Visualizations
 
-### High School Attendance and Absences
+### High School Absences & Enrollment Graph
 
 <img src="{{ '/assets/images/absence_enrollment_plot.png' | relative_url }}" 
-     alt="High School Attendance, Absences, and Enrollment from 2019 to 2025"
+     alt="High School Attendance, Absences, and Enrollment from 2013 to 2025"
+     class="project-graph">
+
+### Economic Conditions & Teenager Employment Graph
+
+<img src="{{ '/assets/images/project2.png' | relative_url }}" 
+     alt="Economic Conditions & Teenager Employment Graph from 2019 to 2024"
      class="project-graph">
 
 ---
