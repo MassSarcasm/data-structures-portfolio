@@ -125,6 +125,8 @@ section {
 
   text-decoration: none !important;
 
+  text-align: center;
+
   padding: 8px 16px;
 
   border: 1px solid var(--border);
@@ -142,6 +144,12 @@ section {
   text-decoration: none !important;
 
   transform: translateY(-2px);
+}
+
+.download-text {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.85;
 }
 
 
@@ -577,6 +585,10 @@ a:hover {
     font-size: 14px;
 
     padding: 7px 13px;
+  }
+
+  .download-text {
+    font-size: 11px;
   }
 
 
