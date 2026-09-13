@@ -50,4 +50,4 @@ I enjoyed doing this project and would like to add on to more of it in the futur
 As stated in the report, it's been a known fact that increased teenage employment leads to poor performance in school or to dropping out, and more than ever we see that on the rise post covid-19 with these economic factors. I look forward to working on this more privately myself or in this class. 
 
 Part of this project was also creating this website and adding a resume, linkedin, and github portfolio amount.
-To disclose any AI usage. AI was used to help create assets style.scss and link scss structure to the pages. All other ideas were of my own.
+To disclose any AI usage. **AI was used to help create assets style.scss and link scss structure to the pages. All other ideas were of my own.**
