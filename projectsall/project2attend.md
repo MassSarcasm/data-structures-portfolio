@@ -65,9 +65,10 @@ The Census data revealed notable increases in several areas, including:
 - Median homeowner costs
 - Employment among teenagers ages 16–19
 
-To provide additional insight, I pulled student absence data from the Charlotte Quality of Life Explorer.
-
-I then combined and cleaned the data from these sources into a single dataset. This allowed me to compare changes in high school attendance and absences with several economic trends occurring during the same period.
+To provide additional insight, I pulled student absence data from the Charlotte Quality of Life Explorer, including:
+- Absence Average
+- Attendance Average per local school.
+The data from the Charlotte Quality of Life Explorer was semi-detailed. It had data for per Neighborhood Profile Area (NPA), which I then averaged all NPA's per year spanning from 2013 - 2024. I then combined and cleaned the data using pandas. One variable did not have data for 2020 but it wasn't necessary so I dropped the NaN values for that dataset. Combining the data proved to be a new challenge that was fun for me. I had to merge two csv data sets and two API call datasets into one data frame which was fun to learn how to do. This allowed me to compare changes in high school attendance and absences with several economic trends occurring during the same period. 
 
 Below are two visualizations that help illustrate these relationships.
 
