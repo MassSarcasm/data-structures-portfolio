@@ -15,6 +15,13 @@
   --text-muted: #CBD5E1;
   --border: #263653;
   --hover: #60A5FA;
+
+  /* Active Page Colors */
+  --active-home: #3B82F6;
+  --active-about: #8B5CF6;
+  --active-projects: #14B8A6;
+  --active-blog: #F59E0B;
+  --active-links: #EC4899;
 }
 
 
@@ -228,6 +235,66 @@ p {
   transform: translateY(-3px);
 
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
+   Active Navigation Buttons
+   ========================= */
+
+.nav-links a.active-home {
+  background: var(--active-home);
+  border-color: var(--active-home);
+}
+
+.nav-links a.active-about {
+  background: var(--active-about);
+  border-color: var(--active-about);
+}
+
+.nav-links a.active-projects {
+  background: var(--active-projects);
+  border-color: var(--active-projects);
+}
+
+.nav-links a.active-blog {
+  background: var(--active-blog);
+  border-color: var(--active-blog);
+}
+
+.nav-links a.active-links {
+  background: var(--active-links);
+  border-color: var(--active-links);
+}
+
+
+/* =========================
+   Active Navigation Hover
+   ========================= */
+
+.nav-links a.active-home:hover {
+  background: #60A5FA;
+  border-color: #60A5FA;
+}
+
+.nav-links a.active-about:hover {
+  background: #A78BFA;
+  border-color: #A78BFA;
+}
+
+.nav-links a.active-projects:hover {
+  background: #2DD4BF;
+  border-color: #2DD4BF;
+}
+
+.nav-links a.active-blog:hover {
+  background: #FBBF24;
+  border-color: #FBBF24;
+}
+
+.nav-links a.active-links:hover {
+  background: #F472B6;
+  border-color: #F472B6;
 }
 
 
