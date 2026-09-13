@@ -73,6 +73,9 @@ Below are two visualizations that help illustrate these relationships.
 
 ### High School Attendance and Absences
 
+<img src="{{ '/assets/images/absence_enrollment_plot.png' | relative_url }}" 
+     alt="High School Attendance, Absences, and Enrollment from 2019 to 2025"
+     class="project-graph">
 
 ---
 
