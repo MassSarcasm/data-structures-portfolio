@@ -595,6 +595,86 @@ section > p {
 
 
 /* =========================
+   Resource Links
+   ========================= */
+
+.resource-links {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+
+  max-width: 900px;
+
+  margin: 35px auto 0;
+}
+
+.resource-links a {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 130px;
+
+  box-sizing: border-box;
+
+  color: #FFFFFF !important;
+  background: var(--card);
+
+  text-align: center;
+  text-decoration: none !important;
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 25px;
+
+  transition: all 0.2s ease;
+}
+
+.resource-links a:hover {
+  color: #FFFFFF !important;
+
+  background: var(--blue);
+
+  border-color: var(--blue);
+
+  text-decoration: none !important;
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+.resource-links strong {
+  color: var(--cyan);
+
+  font-size: 21px;
+
+  margin-bottom: 8px;
+}
+
+.resource-links a:hover strong {
+  color: #FFFFFF;
+}
+
+.resource-links span {
+  color: var(--text-muted);
+
+  font-size: 15px;
+}
+
+.resource-links a:hover span {
+  color: #FFFFFF;
+}
+
+
+/* =========================
    General Links
    ========================= */
 
@@ -759,6 +839,33 @@ a:hover {
     margin: 20px auto 25px;
 
     border-radius: 8px;
+  }
+
+
+  /* =========================
+     Mobile Resource Links
+     ========================= */
+
+  .resource-links {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+
+    margin-top: 25px;
+  }
+
+  .resource-links a {
+    min-height: 110px;
+
+    padding: 20px;
+  }
+
+  .resource-links strong {
+    font-size: 19px;
+  }
+
+  .resource-links span {
+    font-size: 14px;
   }
 
 
