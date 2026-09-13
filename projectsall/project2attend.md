@@ -35,7 +35,7 @@
 
 ## Research Question
 
-**Are statewide economic trends associated with changes in Charlotte’s attendance and absence rates from 2019–2025?**
+**Are statewide economic trends including rising cost of homes and teenager employment associated with changes in Charlotte’s attendance and absence rates from 2019–2025 with affects from Covid-19?**
 
 ---
 
