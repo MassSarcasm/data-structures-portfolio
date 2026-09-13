@@ -41,7 +41,7 @@
 
 ## Introduction
 
-In this research project, I pulled several sources of data using APIs from the **United States Census Bureau** and the **Charlotte Quality of Life Explorer** to explore how high school attendance has been affected since the COVID-19 pandemic.
+In this research project, I pulled several sources of data using APIs from the United States Census Bureau and the Charlotte Quality of Life Explorer to explore how high school attendance has been affected since the COVID-19 pandemic.
 
 High school attendance has not fully recovered to pre-COVID-19 levels. Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
 
@@ -53,18 +53,15 @@ This project examines economic trends alongside Charlotte-area high school atten
 
 ## Data
 
-I pulled several data points from the **United States Census Bureau** for North Carolina, focusing on economic factors that have changed since the COVID-19 pandemic.
-
+I pulled several data points from the United States Census Bureau for North Carolina, focusing on economic factors that have changed since the COVID-19 pandemic.
 The Census data revealed notable increases in several areas, including:
 
 - Median household income
 - Median homeowner costs
 - Employment among teenagers ages 16–19
 
-To complement these economic indicators, I pulled student absence data from the Charlotte Quality of Life Explorer.
-
+To provide additional insight, I pulled student absence data from the Charlotte Quality of Life Explorer.
 I then combined and cleaned the data from these sources into a single dataset. This allowed me to compare changes in high school attendance and absences with several economic trends occurring during the same period.
-
 Below are two visualizations that help illustrate these relationships.
 
 ---
@@ -80,9 +77,7 @@ Below are two visualizations that help illustrate these relationships.
 </div>
 
 This graph shows the change in high school attendance and absences from 2019 through 2025. Attendance declined significantly during the COVID-19 pandemic and has not returned to pre-pandemic levels.
-
 Student enrollment remained relatively consistent throughout the period, suggesting that changes in enrollment alone do not explain the changes observed in attendance.
-
 Towards the end of the period, there is a slight recovery in attendance and a corresponding decrease in absences. However, the most recent year shows an increase in absences again.
 
 ---
@@ -109,20 +104,7 @@ Teen employment is another factor worth considering. Vuolo, Staff, and Mortimer 
 
 ## Conclusions
 
-The data collected in this project highlights several factors that may help explain changes in chronic absenteeism among high school students.
-
-The first visualization shows that high school attendance declined significantly during the COVID-19 pandemic and has not fully recovered. At the same time, student enrollment remained relatively consistent, suggesting that enrollment is not a primary explanation for the changes in attendance.
-
-The second visualization highlights several economic trends that may be relevant to student attendance. Median household income has increased since 2019, but rising income does not necessarily mean that families have greater financial flexibility. Median homeowner costs have also increased, providing additional context about the growing cost of housing.
-
-Teen employment also increased during the period examined. Research by Vuolo, Staff, and Mortimer (2012) suggests that increased work responsibilities among adolescents can negatively affect school involvement and attendance.
-
-Together, these trends suggest that economic pressures may be associated with chronic absenteeism. Rising housing costs can place additional financial pressure on families, while increased teen employment may place additional demands on students themselves.
-
-These factors could potentially contribute to increased absences through financial stress, changes in household circumstances, or students spending more time in the workforce.
-
-The data from the U.S. Census Bureau and Charlotte Quality of Life Explorer therefore provides evidence of several trends occurring alongside the persistence of chronic absenteeism in Charlotte-area high schools. However, these trends represent associations rather than proof of direct causation. Further research would be needed to determine the extent to which each individual factor contributes to student absenteeism.
-
+The data collected revealed several factors that could help explain chronic absenteeism for high schoolers. The first graph here simply shows us that high school attendance dipped heavily with COVID-19 and never fully recovered, while also showing that student enrollment is not a factor, as it stays relatively consistent. Toward the end of the graph, we see a slight recovery in absences, but as of last year, absences began to rise again. Research findings support that chronic absenteeism increased following the COVID-19 pandemic (Dee, 2024; Polikoff & Pardo, 2025). The second graph here shows three rising factors that could play into attendance. The first being median household income. While household income has risen, it does not account for inflation. To help account for this, we pulled median owner costs, which shows us the rising cost to own and operate a home. These costs are rising at a similar rate to income. We also pulled the variable for teenager employment for ages 16–19 since 2019. A study published in the Journal of Research on Adolescence found that adolescent employment can be associated with negative educational outcomes, particularly when students work longer hours (Vuolo et al., 2012). These higher costs and employment factors can add stress to families and students attending high school for the first time. Increased household expenses and homeowner costs not only reduce available budgets but can also contribute to displacement for some families, potentially increasing absences and forcing teenagers to join the workforce at higher rates than we've seen before. With the data provided by the U.S. Census Bureau and Charlotte Quality of Life Explorer, and the combination of higher teenage employment and rising housing costs, we can more clearly see some factors that may support the increase in chronic absenteeism.
 ---
 
 ## Sources
