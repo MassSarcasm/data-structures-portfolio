@@ -35,13 +35,13 @@ Bank of America Renovations Analysis
 
 <div class="project-card">
 
-<a href="{{ '/projectsall/project.png' | relative_url }}" class="project-button">
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button">
 Post Covid-19 High School Attendance Analysis
 </a>
 
-<div class="project-placeholder">
-  <span>Project 2 Visual</span>
-</div>
+<a href="{{ '/projectsall/project2attend' | relative_url }}">
+<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
+</a>
 
 </div>
 
