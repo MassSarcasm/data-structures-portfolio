@@ -39,7 +39,7 @@ View Project on GitHub
 
 ## Research Question
 
-**Are statewide economic trends including rising cost of homes and teenager employment associated with changes in Charlotte’s attendance and absence rates from 2019–2025 with affects from Covid-19?**
+**Are statewide economic trends, including rising home ownership costs and teenager employment, associated with changes in Charlotte’s attendance and absence rates from 2019–2025 with affects from Covid-19?**
 
 ---
 
@@ -47,7 +47,7 @@ View Project on GitHub
 
 In this research project, I pulled several sources of data using APIs from the United States Census Bureau and the Charlotte Quality of Life Explorer to explore how high school attendance has been affected since the COVID-19 pandemic.
 
-High school attendance has not fully recovered to pre-COVID-19 levels as a matter of fact it the observation has been defined as "chronic absenteeism". Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
+High school attendance has not fully recovered to pre-COVID-19 levels. As a matter of fact, the phenomenon has been defined as "chronic absenteeism". Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
 
 There are several variables that may contribute to chronic absenteeism. Morgan Polikoff and Nicolas Pardo explain that some contributing factors include students with disabilities and homelessness, with low-income students representing one of the largest groups affected by chronic absenteeism (Polikoff & Pardo, 2025).
 
@@ -101,8 +101,7 @@ I also pulled the variable for teenager employment for ages 16–19 since 2019. 
 
 These higher costs and employment factors can add stress to families and students attending high school for the first time. Increased household expenses and homeowner costs not only reduce available budgets but can also contribute to displacement for some families, potentially increasing absences and forcing teenagers to join the workforce at higher rates than we've seen before.
 
-With the data provided by the U.S. Census Bureau and Charlotte Quality of Life Explorer, and the results concluded as a combination of higher teenage employment and rising housing costs, we can more clearly see some factors that support the increase in chronic absenteeism.
-
+With the data provided by the U.S. Census Bureau and Charlotte Quality of Life Explorer, we can observe that higher teenage employment and rising housing costs correlate with higher absenteeism.
 ---
 
 ## Sources
