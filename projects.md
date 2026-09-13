@@ -1,24 +1,5 @@
 # [Josiah Bradshaw](index.md){: .site-title}
 
-<div class="profile-links">
-
-<a href="{{ '/assets/resume.pdf' | relative_url }}" download>
-  Resume<br>
-  <span class="download-text">Download</span>
-</a>
-
-<a href="https://github.com/MassSarcasm" target="_blank">
-  GitHub<br>
-  <span class="download-text">Link</span>
-</a>
-
-<a href="https://www.linkedin.com/in/josiahbradshaw/" target="_blank">
-  LinkedIn<br>
-  <span class="download-text">Link</span>
-</a>
-
-</div>
-
 <div class="nav-links">
 
 <a href="{{ '/' | relative_url }}">Home</a>
@@ -37,24 +18,26 @@ A collection of my Data Science projects, coursework, and independent work.
 
 ---
 
-<div class="projects-page">
+<div class="featured-projects">
 
-<div class="project-card">
+<div class="featured-project">
 
-<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-button">
+<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
 Bank of America Renovations Analysis
 </a>
 
+<a href="{{ '/projectsall/project1panthers' | relative_url }}">
 <div class="project-placeholder">
   <span>Project 1 Visual</span>
 </div>
+</a>
 
 </div>
 
 
-<div class="project-card">
+<div class="featured-project">
 
-<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button">
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
 Post Covid-19 High School Attendance Analysis
 </a>
 
