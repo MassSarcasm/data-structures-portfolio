@@ -43,21 +43,6 @@ I'm particularly interested in using data to explore real-world problems, find m
 
 ## Featured Projects
 
-<div class="featured-projects">
-
-<div class="featured-project">
-
-<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
-Bank of America Renovations Analysis
-</a>
-
-<a href="{{ '/projectsall/project1panthers' | relative_url }}">
-<img src="{{ '/assets/images/project1.png' | relative_url }}" alt="Bank of America Renovations Analysis">
-</a>
-
-</div>
-
-
 <div class="featured-project">
 
 <a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
