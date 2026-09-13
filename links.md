@@ -33,7 +33,7 @@
 
 # Links
 
-A collection of my professional, academic, and project-related resources.
+Landing page where you can access my resume, links, and anything else you might need!
 
 ---
 
