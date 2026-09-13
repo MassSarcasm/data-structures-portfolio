@@ -85,7 +85,7 @@ Below are two visualizations that help illustrate these relationships.
 
 ---
 
-## Conclusions
+## Results
 
 The data collected revealed several factors that could help explain chronic absenteeism for high schoolers.
 
