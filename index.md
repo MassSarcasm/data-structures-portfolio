@@ -7,9 +7,15 @@
   <span class="download-text">Download</span>
 </a>
 
-<a href="https://github.com/MassSarcasm" target="_blank">GitHub</a>
+<a href="https://github.com/MassSarcasm" target="_blank">
+  GitHub<br>
+  <span class="download-text">Link</span>
+</a>
 
-<a href="https://www.linkedin.com/in/josiahbradshaw/" target="_blank">LinkedIn</a>
+<a href="https://www.linkedin.com/in/josiahbradshaw/" target="_blank">
+  LinkedIn<br>
+  <span class="download-text">Link</span>
+</a>
 
 </div>
 
