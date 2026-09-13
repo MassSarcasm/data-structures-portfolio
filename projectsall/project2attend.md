@@ -42,20 +42,15 @@
 ## Introduction
 
 In this research project, I pulled several sources of data using APIs from the United States Census Bureau and the Charlotte Quality of Life Explorer to explore how high school attendance has been affected since the COVID-19 pandemic.
-
 High school attendance has not fully recovered to pre-COVID-19 levels. Thomas S. Dee defines chronic absenteeism as “missing 10 percent or more of school for any reason” (Dee, 2024).
-
 There are several variables that may contribute to chronic absenteeism. Morgan Polikoff and Nicolas Pardo explain that some contributing factors include students with disabilities and homelessness, with low-income students representing one of the largest groups affected by chronic absenteeism (Polikoff & Pardo, 2025).
-
 This project examines economic trends alongside Charlotte-area high school attendance and absence data to explore whether these factors may be associated with changes in attendance following the COVID-19 pandemic.
 
 ---
 
 ## Data
-
 I pulled several data points from the United States Census Bureau for North Carolina, focusing on economic factors that have changed since the COVID-19 pandemic.
 The Census data revealed notable increases in several areas, including:
-
 - Median household income
 - Median homeowner costs
 - Employment among teenagers ages 16–19
