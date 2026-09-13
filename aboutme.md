@@ -51,9 +51,7 @@
 
 <p>I’m the oldest of eight siblings, with six brothers and one sister, which has given me plenty of experience with responsibility, patience, and leadership from an early age.</p>
 
-<p>I’m also happily married to my high school sweetheart. Outside of school and technology, I’m a powerlifter and enjoy challenging myself in the gym. My current bench press personal best is <strong>355 pounds</strong>, and I’m always working toward getting stronger.</p>
-
-<p>These experiences have helped shape who I am both personally and professionally, and I value the discipline, persistence, and problem-solving mindset they have taught me.</p>
+<p>I’m also happily married to my high school sweetheart! Outside of school and technology, I’m a power lifter and enjoy challenging myself in the gym. My current bench press personal best is 355 pounds, and I’m always working toward getting stronger.</p>
 
 <p>Now, I’m eager to combine my technical background, communication skills, and education in Data Science as I pursue my first internship and take the next step toward a career in the field.</p>
 
