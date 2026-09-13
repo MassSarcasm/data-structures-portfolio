@@ -1,5 +1,15 @@
 # [Josiah Bradshaw](index.md){: .site-title}
 
+<div class="profile-links">
+
+<a href="{{ '/assets/resume.pdf' | relative_url }}" download>Resume</a>
+
+<a href="https://github.com/MassSarcasm" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/josiahbradshaw/" target="_blank">LinkedIn</a>
+
+</div>
+
 <div class="nav-links">
 
 <a href="{{ '/' | relative_url }}">Home</a>
