@@ -2,7 +2,10 @@
 
 <div class="profile-links">
 
-<a href="{{ '/assets/resume.pdf' | relative_url }}" download>Resume</a>
+<a href="{{ '/assets/resume.pdf' | relative_url }}" download>
+  Resume<br>
+  <span class="download-text">Download</span>
+</a>
 
 <a href="https://github.com/MassSarcasm" target="_blank">GitHub</a>
 
