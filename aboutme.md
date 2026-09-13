@@ -35,7 +35,7 @@
 
 <img src="{{ '/assets/images/josiah.jpeg' | relative_url }}" alt="Josiah Bradshaw" class="about-photo">
 
-<h2>Hello, and welcome!</h2>
+<h2>Hello, and Welcome!</h2>
 
 <p>I’m Josiah Bradshaw, a Junior at the University of North Carolina at Charlotte (UNC Charlotte), currently pursuing my Bachelor of Science in Data Science.</p>
 
