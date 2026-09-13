@@ -33,6 +33,10 @@
 
 # Post Covid-19 High School Attendance Analysis
 
+<a href="https://github.com/MassSarcasm/Highschool-Attendance-Post-Covid-19-Analysis" target="_blank" class="project-button">
+View Project on GitHub
+</a>
+
 ## Research Question
 
 **Are statewide economic trends including rising cost of homes and teenager employment associated with changes in Charlotte’s attendance and absence rates from 2019–2025 with affects from Covid-19?**
