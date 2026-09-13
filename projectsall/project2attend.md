@@ -72,6 +72,10 @@ The data from the Charlotte Quality of Life Explorer was semi-detailed. It had d
 
 Below are two visualizations that help illustrate these relationships.
 
+## Ethics and Limitations
+
+All of my data was ethically pulled. I used API's with requested keys from United States Census Bureau. The Charlotte Quality of Life Explorer is a public government website that has data available to be used with public download options for data formats.
+While all of my data was ethically pulled, I did run into some limitation issues regarding the data. Not all sources had all the variables I was looking for. Being so, I had to combine multiple datasets into one data frame sorting by year and making sure the years lined up correctly so all the data looked concise.
 ---
 
 ## Visualizations
