@@ -30,3 +30,7 @@
 </div>
 
 ---
+
+Are statewide economic trends associated with changes in Charlotte’s attendance and absence rates from 2019–2025? <Bold This>
+In this research project I pulled several sources of data using an API from United States Census Bureau (census.gov) and Charlotte Quality of Life Explorer. 
+Throughout this project I also researched several sources 
