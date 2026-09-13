@@ -48,3 +48,6 @@ I not only believe I've shown this is true, but think there is even more to prov
 I enjoyed doing this project and would like to add on to more of it in the future. I think I an really go into depth with economic factors and come out of this project with an enormous amount of correlation data. As my wife is a teacher this topic has some real life applications to me. It's interesting to see the ideology that "history repeats itself" is happening here. 
 
 As stated in the report, it's been a known fact that increased teenage employment leads to poor performance in school or to dropping out, and more than ever we see that on the rise post covid-19 with these economic factors. I look forward to working on this more privately myself or in this class. 
+
+Part of this project was also creating this website and adding a resume, linkedin, and github portfolio amount.
+To disclose any AI usage. AI was used to help create assets style.scss and link scss structure to the pages. All other ideas were of my own.
