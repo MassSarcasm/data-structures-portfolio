@@ -41,6 +41,19 @@ A collection of my Data Science projects, coursework, and independent work.
 
 <div class="featured-project">
 
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
+Post Covid-19 High School Attendance Analysis
+</a>
+
+<a href="{{ '/projectsall/project2attend' | relative_url }}">
+<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
+</a>
+
+</div>
+
+
+<div class="featured-project">
+
 <a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
 Bank of America Renovations Analysis
 </a>
@@ -49,19 +62,6 @@ Bank of America Renovations Analysis
 <div class="project-placeholder">
   <span>Project 1 Visual</span>
 </div>
-</a>
-
-</div>
-
-
-<div class="featured-project">
-
-<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
-Post Covid-19 High School Attendance Analysis
-</a>
-
-<a href="{{ '/projectsall/project2attend' | relative_url }}">
-<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
 </a>
 
 </div>
