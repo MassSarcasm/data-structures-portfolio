@@ -73,37 +73,6 @@ Below are two visualizations that help illustrate these relationships.
 
 ### High School Attendance and Absences
 
-<div class="project-visual">
-
-<span>Attendance and Absence Graph</span>
-
-</div>
-
-This graph shows the change in high school attendance and absences from 2019 through 2025. Attendance declined significantly during the COVID-19 pandemic and has not returned to pre-pandemic levels.
-
-Student enrollment remained relatively consistent throughout the period, suggesting that changes in enrollment alone do not explain the changes observed in attendance.
-
-Towards the end of the period, there is a slight recovery in attendance and a corresponding decrease in absences. However, the most recent year shows an increase in absences again.
-
----
-
-### Economic Trends and Teen Employment
-
-<div class="project-visual">
-
-<span>Economic Trends Graph</span>
-
-</div>
-
-The second graph shows three economic factors that may be associated with changes in attendance:
-
-- Median household income
-- Median homeowner costs
-- Employment among teenagers ages 16–19
-
-While median household income has increased, income alone does not account for changes in the cost of living. Median homeowner costs provide additional context by showing the increasing cost associated with owning and operating a home.
-
-Teen employment is another factor worth considering. Vuolo, Staff, and Mortimer (2012) explain that increased adolescent employment has historically been associated with potential negative effects on school involvement and attendance.
 
 ---
 
