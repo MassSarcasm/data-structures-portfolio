@@ -22,10 +22,12 @@
 <div class="nav-links">
 
 <a href="{{ '/' | relative_url }}">Home</a>
-<a href="{{ '/aboutme' | relative_url }}">About Me</a>
+<a href="{{ '/aboutme' | relative_url }}" class="active-about">About Me</a>
 <a href="{{ '/projects' | relative_url }}">Projects</a>
 <a href="{{ '/blog' | relative_url }}">Blog</a>
 <a href="{{ '/links' | relative_url }}">Links</a>
+
+</div>
 
 </div>
 
