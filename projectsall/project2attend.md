@@ -121,7 +121,7 @@ Together, these trends suggest that economic pressures may be associated with ch
 
 These factors could potentially contribute to increased absences through financial stress, changes in household circumstances, or students spending more time in the workforce.
 
-The data from the **U.S. Census Bureau** and **Charlotte Quality of Life Explorer** therefore provides evidence of several trends occurring alongside the persistence of chronic absenteeism in Charlotte-area high schools. However, these trends represent associations rather than proof of direct causation. Further research would be needed to determine the extent to which each individual factor contributes to student absenteeism.
+The data from the U.S. Census Bureau and Charlotte Quality of Life Explorer therefore provides evidence of several trends occurring alongside the persistence of chronic absenteeism in Charlotte-area high schools. However, these trends represent associations rather than proof of direct causation. Further research would be needed to determine the extent to which each individual factor contributes to student absenteeism.
 
 ---
 
