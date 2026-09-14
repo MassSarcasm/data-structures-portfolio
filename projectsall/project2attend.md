@@ -106,7 +106,8 @@ I also pulled the variable for teenager employment for ages 16–19 since 2019. 
 
 These higher costs and employment factors can add stress to families and students attending high school for the first time. Increased household expenses and homeowner costs not only reduce available budgets but can also contribute to displacement for some families, potentially increasing absences and forcing teenagers to join the workforce at higher rates than we've seen before.
 
-With the data provided by the U.S. Census Bureau and Charlotte Quality of Life Explorer, we can observe that higher teenage employment and rising housing costs correlate with higher absenteeism.
+With the data provided by the U.S. Census Bureau and Charlotte Quality of Life Explorer, we can observe that higher teenage employment and rising housing cost correlate with higher absenteeism.
+
 ---
 
 ## Sources
