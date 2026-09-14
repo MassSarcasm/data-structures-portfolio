@@ -43,10 +43,7 @@ A collection of my Data Science projects, coursework, and independent work.
 
 <a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
 Post Covid-19 High School Attendance Analysis
-</a>
-
-<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button project-click-button">
-Project 1 Click Here
+<span class="project-click-text">Project 1 Click Here</span>
 </a>
 
 <a href="{{ '/projectsall/project2attend' | relative_url }}">
@@ -60,10 +57,7 @@ Project 1 Click Here
 
 <a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
 Bank of America Renovations Analysis
-</a>
-
-<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-button project-click-button">
-Project 2 Click Here
+<span class="project-click-text">Project 2 Click Here</span>
 </a>
 
 <a href="{{ '/projectsall/project1panthers' | relative_url }}">
