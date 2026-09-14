@@ -49,6 +49,10 @@ Post Covid-19 High School Attendance Analysis
 <img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
 </a>
 
+<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-button project-click-button">
+Project 1 Click Here
+</a>
+
 </div>
 
 
@@ -62,6 +66,10 @@ Bank of America Renovations Analysis
 <div class="project-placeholder">
   <span>Project 1 Visual</span>
 </div>
+</a>
+
+<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-button project-click-button">
+Project 2 Click Here
 </a>
 
 </div>
