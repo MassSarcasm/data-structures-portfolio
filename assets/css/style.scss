@@ -351,6 +351,8 @@ section > p {
 .featured-project .project-link {
   display: flex;
 
+  flex-direction: column;
+
   align-items: center;
   justify-content: center;
 
@@ -390,6 +392,28 @@ section > p {
 
   box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
 }
+
+
+/* =========================
+   Project Click Text
+   ========================= */
+
+.project-click-text {
+  display: block;
+
+  margin-top: 6px;
+
+  font-size: 13px;
+
+  font-weight: 500;
+
+  opacity: 0.9;
+}
+
+
+/* =========================
+   Featured Project Visual
+   ========================= */
 
 .featured-project > a:not(.project-link) {
   display: block;
@@ -500,31 +524,6 @@ section > p {
   transform: translateY(-3px);
 
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
-}
-
-
-/* =========================
-   Project Click Buttons
-   ========================= */
-
-.project-click-button {
-  min-height: auto;
-
-  width: auto;
-
-  align-self: center;
-
-  margin: 15px 20px;
-
-  padding: 10px 22px;
-
-  border-radius: 7px;
-
-  font-size: 15px;
-}
-
-.project-click-button:hover {
-  transform: translateY(-2px);
 }
 
 
@@ -872,6 +871,12 @@ a:hover {
     border-radius: 10px 10px 0 0;
   }
 
+  .project-click-text {
+    font-size: 12px;
+
+    margin-top: 5px;
+  }
+
   .featured-project img {
     height: 220px;
   }
@@ -903,25 +908,6 @@ a:hover {
     font-size: 16px;
 
     border-radius: 0 0 10px 10px;
-  }
-
-
-  /* =========================
-     Mobile Project Click Buttons
-     ========================= */
-
-  .project-click-button {
-    width: auto;
-
-    min-height: auto;
-
-    margin: 12px 15px;
-
-    padding: 9px 18px;
-
-    font-size: 14px;
-
-    border-radius: 7px;
   }
 
 
