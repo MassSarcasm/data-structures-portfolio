@@ -17,7 +17,7 @@
   --hover: #60A5FA;
 
   /* Active Page Colors */
-  --active-home: #3B82F6;
+  --active-home: #06B6D4;
   --active-about: #8B5CF6;
   --active-projects: #14B8A6;
   --active-blog: #F59E0B;
@@ -273,8 +273,8 @@ p {
    ========================= */
 
 .nav-links a.active-home:hover {
-  background: #60A5FA;
-  border-color: #60A5FA;
+  background: #22D3EE;
+  border-color: #22D3EE;
 }
 
 .nav-links a.active-about:hover {
@@ -500,6 +500,31 @@ section > p {
   transform: translateY(-3px);
 
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
+   Project Click Buttons
+   ========================= */
+
+.project-click-button {
+  min-height: auto;
+
+  width: auto;
+
+  align-self: center;
+
+  margin: 15px 20px;
+
+  padding: 10px 22px;
+
+  border-radius: 7px;
+
+  font-size: 15px;
+}
+
+.project-click-button:hover {
+  transform: translateY(-2px);
 }
 
 
@@ -878,6 +903,25 @@ a:hover {
     font-size: 16px;
 
     border-radius: 0 0 10px 10px;
+  }
+
+
+  /* =========================
+     Mobile Project Click Buttons
+     ========================= */
+
+  .project-click-button {
+    width: auto;
+
+    min-height: auto;
+
+    margin: 12px 15px;
+
+    padding: 9px 18px;
+
+    font-size: 14px;
+
+    border-radius: 7px;
   }
 
 
