@@ -54,5 +54,3 @@ Post Covid-19 High School Attendance Analysis
 </a>
 
 </div>
-
-</div>
