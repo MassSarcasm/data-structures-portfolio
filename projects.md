@@ -55,14 +55,14 @@ Post Covid-19 High School Attendance Analysis
 
 <div class="featured-project">
 
-<a href="{{ '/projectsall/project1panthers' | relative_url }}" class="project-link">
-Bank of America Renovations Analysis
+<a href="{{ '/projectsall/project4drones' | relative_url }}" class="project-link">
+Drone Analysis
 <span class="project-click-text">Project 2 Click Here</span>
 </a>
 
-<a href="{{ '/projectsall/project1panthers' | relative_url }}">
+<a href="{{ '/projectsall/project4drones' | relative_url }}">
 <div class="project-placeholder">
-  <span>Project 1 Visual</span>
+  <span>Project 2 Visual</span>
 </div>
 </a>
 
