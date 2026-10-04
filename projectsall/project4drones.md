@@ -113,7 +113,7 @@ To accurately train my model I needed "watt-hours" which is used to show how muc
 
 ### Predicted vs Actual
 
-<img src="{{ '/assets/images/PredictedvsActual.png' | relative_url }}"
+<img src="{{ '/assets/images/PredictedVsActual.png' | relative_url }}"
      alt="Predicted vs Actual"
      class="project-graph">
 
