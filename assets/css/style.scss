@@ -1,3 +1,363 @@
+---
+---
+
+/* =========================
+   Color Variables
+   ========================= */
+
+:root {
+  --navy: #0B132B;
+  --navy-light: #111C36;
+  --card: #17233D;
+  --blue: #3B82F6;
+  --cyan: #38BDF8;
+  --text: #F8FAFC;
+  --text-muted: #CBD5E1;
+  --border: #263653;
+  --hover: #60A5FA;
+
+  /* Page accent colors */
+  --projects-accent: #8B5CF6;
+  --links-accent: #EC4899;
+  --about-accent: #14B8A6;
+  --blog-accent: #F59E0B;
+}
+
+
+/* =========================
+   Global Page
+   ========================= */
+
+html,
+body {
+  background: var(--navy);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               Helvetica, Arial, sans-serif;
+}
+
+
+/* =========================
+   Remove Minimal Theme Sidebar
+   ========================= */
+
+.wrapper {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: none !important;
+}
+
+footer {
+  display: none !important;
+}
+
+section {
+  width: auto;
+  float: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* =========================
+   Main Content
+   ========================= */
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 40px 80px;
+}
+
+
+/* =========================
+   Site Title / Home
+   ========================= */
+
+.site-title {
+  display: inline-block;
+
+  color: var(--text);
+  font-size: 42px;
+  font-weight: 800;
+
+  text-decoration: none;
+
+  margin: 0 0 30px;
+
+  transition: all 0.2s ease;
+}
+
+.site-title:hover {
+  color: var(--cyan);
+  text-decoration: none;
+  transform: translateX(3px);
+}
+
+
+/* =========================
+   Profile Links
+   ========================= */
+
+.profile-links {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 12px;
+
+  margin: -10px 0 25px;
+}
+
+.profile-links a {
+  display: inline-block;
+
+  color: var(--cyan) !important;
+  background: transparent;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  text-decoration: none !important;
+
+  text-align: center;
+
+  padding: 8px 16px;
+
+  border: 1px solid var(--border);
+  border-radius: 7px;
+
+  transition: all 0.2s ease;
+}
+
+.profile-links a:hover {
+  color: #FFFFFF !important;
+  background: var(--blue);
+
+  border-color: var(--blue);
+
+  text-decoration: none !important;
+
+  transform: translateY(-2px);
+}
+
+.download-text {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+
+/* =========================
+   Headings
+   ========================= */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  color: var(--text);
+  font-size: 30px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: var(--cyan);
+  font-size: 22px;
+}
+
+p {
+  color: var(--text-muted);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   Navigation Buttons
+   ========================= */
+
+.nav-links {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 15px;
+
+  margin: 0 0 45px;
+}
+
+.nav-links a {
+  display: inline-block;
+
+  color: #FFFFFF !important;
+  background: var(--blue);
+
+  font-weight: 700;
+  font-size: 17px;
+
+  text-decoration: none !important;
+
+  padding: 13px 25px;
+
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #FFFFFF !important;
+
+  background: var(--hover);
+
+  border-color: var(--hover);
+
+  text-decoration: none !important;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
+   Active Navigation Buttons
+   ========================= */
+
+/* Projects */
+.nav-links a.active-projects {
+  background: var(--projects-accent);
+
+  border-color: var(--projects-accent);
+}
+
+.nav-links a.active-projects:hover {
+  background: #A78BFA;
+
+  border-color: #A78BFA;
+
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.25);
+}
+
+
+/* Links */
+.nav-links a.active-links {
+  background: var(--links-accent);
+
+  border-color: var(--links-accent);
+}
+
+.nav-links a.active-links:hover {
+  background: #F472B6;
+
+  border-color: #F472B6;
+
+  box-shadow: 0 8px 20px rgba(236, 72, 153, 0.25);
+}
+
+
+/* About Me */
+.nav-links a.active-about {
+  background: var(--about-accent);
+
+  border-color: var(--about-accent);
+}
+
+.nav-links a.active-about:hover {
+  background: #2DD4BF;
+
+  border-color: #2DD4BF;
+
+  box-shadow: 0 8px 20px rgba(20, 184, 166, 0.25);
+}
+
+
+/* Blog */
+.nav-links a.active-blog {
+  background: var(--blog-accent);
+
+  border-color: var(--blog-accent);
+}
+
+.nav-links a.active-blog:hover {
+  background: #FBBF24;
+
+  border-color: #FBBF24;
+
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.25);
+}
+
+
+/* =========================
+   Horizontal Dividers
+   ========================= */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+
+  margin: 35px 0;
+}
+
+
+/* =========================
+   Introduction
+   ========================= */
+
+section > h3 {
+  font-size: 22px;
+
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+section > p {
+  max-width: 1000px;
+}
+
+
+/* =========================
+   Featured Projects - Index
+   ========================= */
+
+.featured-projects {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 520px));
+
+  justify-content: center;
+
+  gap: 25px;
+
+  margin-top: 30px;
+}
+
+.featured-project {
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+}
+
+
 /* =========================
    Featured Project Buttons
    ========================= */
@@ -19,6 +379,8 @@
 
   font-size: 17px;
   font-weight: 700;
+
+  line-height: 1.3;
 
   text-align: center;
 
@@ -64,4 +426,652 @@
   line-height: 1.2;
 
   opacity: 0.9;
+}
+
+
+/* =========================
+   Featured Project Images
+   ========================= */
+
+.featured-project > a:not(.project-link) {
+  display: block;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-top: none;
+
+  border-radius: 0 0 10px 10px;
+
+  padding: 10px;
+
+  transition: all 0.25s ease;
+}
+
+.featured-project > a:not(.project-link):hover {
+  border-color: var(--blue);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.featured-project img {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+
+  display: block;
+
+  border-radius: 6px;
+}
+
+
+/* =========================
+   Project Visual Placeholders
+   ========================= */
+
+.project-placeholder {
+  width: 100%;
+
+  height: 220px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-top: none;
+
+  border-radius: 0 0 10px 10px;
+
+  color: var(--text-muted);
+
+  font-size: 16px;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+.project-placeholder span {
+  opacity: 0.7;
+}
+
+
+/* =========================
+   Projects Page
+   ========================= */
+
+.projects-page {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 520px));
+
+  justify-content: center;
+
+  gap: 25px;
+
+  width: 100%;
+}
+
+.project-card {
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+/* =========================
+   Project Buttons
+   ========================= */
+
+.project-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  min-height: 70px;
+
+  box-sizing: border-box;
+
+  color: #FFFFFF !important;
+  background: var(--blue);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  text-align: center;
+
+  text-decoration: none !important;
+
+  padding: 15px 18px;
+
+  margin: 0;
+
+  border-radius: 10px 10px 0 0;
+
+  border: 1px solid var(--blue);
+
+  transition: all 0.2s ease;
+}
+
+.project-button:hover {
+  color: #FFFFFF !important;
+
+  background: var(--hover);
+
+  border-color: var(--hover);
+
+  text-decoration: none !important;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
+   Project Repository Button
+   ========================= */
+
+.project-repo {
+  width: 100%;
+
+  margin: 10px 0 35px;
+}
+
+.project-repo-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  min-height: 70px;
+
+  box-sizing: border-box;
+
+  color: #FFFFFF !important;
+  background: var(--blue);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  text-align: center;
+
+  text-decoration: none !important;
+
+  padding: 15px 20px;
+
+  border: 1px solid var(--blue);
+
+  border-radius: 8px;
+
+  transition: all 0.2s ease;
+}
+
+.project-repo-button:hover {
+  color: #FFFFFF !important;
+
+  background: var(--hover);
+
+  border-color: var(--hover);
+
+  text-decoration: none !important;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
+   Project Visuals
+   ========================= */
+
+.project-visual {
+  width: 100%;
+
+  height: 400px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: var(--card);
+
+  border: 2px dashed var(--border);
+
+  border-radius: 12px;
+
+  color: var(--text-muted);
+
+  font-size: 18px;
+  font-weight: 600;
+
+  margin: 25px 0 30px;
+}
+
+.project-visual span {
+  opacity: 0.7;
+}
+
+
+/* =========================
+   Project Graphs
+   ========================= */
+
+.project-graph {
+  display: block;
+
+  width: 100%;
+
+  max-width: 100%;
+
+  height: auto;
+
+  margin: 25px 0 35px;
+
+  border-radius: 10px;
+
+  border: 1px solid var(--border);
+
+  background: #FFFFFF;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   About Me
+   ========================= */
+
+.about-page {
+  display: block;
+}
+
+.about-page::after {
+  content: "";
+
+  display: block;
+
+  clear: both;
+}
+
+.about-page h2 {
+  color: var(--text);
+
+  font-size: 30px;
+
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.about-page p {
+  color: #FFFFFF;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================
+   About Me Photo
+   ========================= */
+
+.about-photo {
+  float: right;
+
+  width: 260px;
+  height: 280px;
+
+  object-fit: cover;
+
+  margin: 0 0 30px 55px;
+
+  border-radius: 12px;
+
+  border: 2px solid var(--border);
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+
+  transition: all 0.25s ease;
+}
+
+.about-photo:hover {
+  border-color: var(--blue);
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+}
+
+
+/* =========================
+   Resource Links Page
+   ========================= */
+
+.resource-links {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 18px;
+
+  margin-top: 30px;
+}
+
+.resource-links a {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  min-height: 100px;
+
+  box-sizing: border-box;
+
+  color: #FFFFFF !important;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 20px 25px;
+
+  text-decoration: none !important;
+
+  transition: all 0.2s ease;
+}
+
+.resource-links a:hover {
+  background: var(--blue);
+
+  border-color: var(--blue);
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+.resource-links strong {
+  color: var(--cyan);
+
+  font-size: 19px;
+
+  margin-bottom: 7px;
+}
+
+.resource-links span {
+  color: var(--text-muted);
+
+  font-size: 15px;
+
+  line-height: 1.4;
+}
+
+.resource-links a:hover strong,
+.resource-links a:hover span {
+  color: #FFFFFF;
+}
+
+
+/* =========================
+   General Links
+   ========================= */
+
+a {
+  color: var(--cyan);
+}
+
+a:hover {
+  color: var(--hover);
+}
+
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media screen and (max-width: 720px) {
+
+  section {
+    padding: 30px 20px 60px;
+  }
+
+
+  /* =========================
+     Mobile Site Title
+     ========================= */
+
+  .site-title {
+    font-size: 34px;
+  }
+
+
+  /* =========================
+     Mobile Profile Links
+     ========================= */
+
+  .profile-links {
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-bottom: 20px;
+  }
+
+  .profile-links a {
+    font-size: 14px;
+
+    padding: 7px 13px;
+  }
+
+  .download-text {
+    font-size: 11px;
+  }
+
+
+  /* =========================
+     Mobile Navigation
+     ========================= */
+
+  .nav-links {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+    margin-bottom: 35px;
+  }
+
+  .nav-links a {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    padding: 10px 8px;
+
+    border-radius: 7px;
+  }
+
+  .nav-links a:first-child {
+    grid-column: 1 / -1;
+  }
+
+
+  /* =========================
+     Mobile Featured Projects
+     ========================= */
+
+  .featured-projects {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .featured-project .project-link {
+    min-height: auto;
+
+    font-size: 17px;
+
+    padding: 13px 16px;
+
+    border-radius: 10px 10px 0 0;
+  }
+
+  .project-click-text {
+    font-size: 12px;
+
+    margin-top: 4px;
+  }
+
+  .featured-project img {
+    height: 220px;
+
+    object-fit: cover;
+  }
+
+
+  /* =========================
+     Mobile Projects Page
+     ========================= */
+
+  .projects-page {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .project-button {
+    font-size: 17px;
+
+    min-height: auto;
+
+    padding: 14px 16px;
+
+    border-radius: 10px 10px 0 0;
+  }
+
+  .project-placeholder {
+    height: 220px;
+
+    font-size: 16px;
+
+    border-radius: 0 0 10px 10px;
+  }
+
+
+  /* =========================
+     Mobile Project Repository
+     ========================= */
+
+  .project-repo {
+    margin: 10px 0 30px;
+  }
+
+  .project-repo-button {
+    min-height: 60px;
+
+    font-size: 16px;
+
+    padding: 13px 16px;
+  }
+
+
+  /* =========================
+     Mobile Project Visuals
+     ========================= */
+
+  .project-visual {
+    height: 280px;
+
+    font-size: 16px;
+  }
+
+
+  /* =========================
+     Mobile Project Graphs
+     ========================= */
+
+  .project-graph {
+    width: 100%;
+
+    height: auto;
+
+    margin: 20px 0 30px;
+  }
+
+
+  /* =========================
+     Mobile About Me
+     ========================= */
+
+  .about-photo {
+    float: none;
+
+    display: block;
+
+    width: 220px;
+    height: 240px;
+
+    margin: 0 0 30px 0;
+  }
+
+
+  /* =========================
+     Mobile Resource Links
+     ========================= */
+
+  .resource-links {
+    grid-template-columns: 1fr;
+
+    gap: 12px;
+
+    margin-top: 25px;
+  }
+
+  .resource-links a {
+    min-height: 85px;
+
+    padding: 17px 20px;
+  }
+
+  .resource-links strong {
+    font-size: 18px;
+  }
+
+  .resource-links span {
+    font-size: 14px;
+  }
+
 }
