@@ -602,28 +602,36 @@ section > p {
    ========================= */
 
 .project-repo {
-  display: flex;
+  display: block;
 
-  justify-content: flex-start;
+  width: 100%;
 
   margin: 0 0 30px;
 }
 
 .project-repo-button {
-  display: inline-flex;
+  display: flex;
 
   align-items: center;
   justify-content: center;
 
+  width: 100%;
+
+  box-sizing: border-box;
+
+  min-height: 70px;
+
   color: #FFFFFF !important;
   background: var(--blue);
 
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
+
+  text-align: center;
 
   text-decoration: none !important;
 
-  padding: 12px 22px;
+  padding: 15px 18px;
 
   border: 1px solid var(--blue);
 
@@ -643,7 +651,7 @@ section > p {
 
   transform: translateY(-3px);
 
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
 }
 
 
@@ -931,7 +939,7 @@ a:hover {
      ========================= */
 
   .project-repo {
-    justify-content: flex-start;
+    width: 100%;
 
     margin-bottom: 25px;
   }
@@ -941,11 +949,11 @@ a:hover {
 
     box-sizing: border-box;
 
+    min-height: 60px;
+
     font-size: 15px;
 
-    padding: 11px 18px;
-
-    text-align: center;
+    padding: 12px 18px;
   }
 
 
