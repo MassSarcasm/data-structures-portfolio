@@ -80,7 +80,42 @@ I can now start to train models using watt hours in combination with the feature
 ## Ethics and Limitations
 
 All of my data was ethically sourced. The Carnegie Mellon University has the documentation and records for the flights made available to he public for use. While all the data needed was ethically pulled I did encounter some limitations.
+
 To accurately train my model I needed "watt-hours" which is used to show how much power a drone consumes from a battery. I had to create this variable myself and was able to achieve this in python.
+
+---
+
+## Visualizations
+
+### Distribution of Energy Used
+
+<img src="{{ '/assets/images/Distro_Energy_Used.png' | relative_url }}"
+     alt="Distribution of Energy Used"
+     class="project-graph">
+
+---
+
+### Variables Compared to Other Variables
+
+<img src="{{ '/assets/images/Variables_VS_Variables.png' | relative_url }}"
+     alt="Variables Compared to Other Variables"
+     class="project-graph">
+
+---
+
+### Model Improvement After Training
+
+<img src="{{ '/assets/images/modelimprovement.png' | relative_url }}"
+     alt="Model Improvement After Training"
+     class="project-graph">
+
+---
+
+### Predicted vs Actual
+
+<img src="{{ '/assets/images/PredictedvsActual.png' | relative_url }}"
+     alt="Predicted vs Actual"
+     class="project-graph">
 
 ---
 
