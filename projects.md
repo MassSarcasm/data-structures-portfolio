@@ -61,9 +61,7 @@ Drone Analysis
 </a>
 
 <a href="{{ '/projectsall/project4drones' | relative_url }}">
-<div class="project-placeholder">
-  <span>Project 2 Visual</span>
-</div>
+<img src="{{ '/assets/images/PredictedVsActual.png' | relative_url }}" alt="Drone Battery Consumption Predicted vs Actual">
 </a>
 
 </div>
