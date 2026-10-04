@@ -16,11 +16,11 @@
   --border: #263653;
   --hover: #60A5FA;
 
-  /* Page-specific accent colors */
-  --about-accent: #14B8A6;
+  /* Page Accent Colors */
   --projects-accent: #8B5CF6;
-  --blog-accent: #F59E0B;
   --links-accent: #EC4899;
+  --blog-accent: #14B8A6;
+  --about-accent: #F59E0B;
 }
 
 
@@ -200,7 +200,6 @@ p {
   color: var(--text-muted);
 
   font-size: 17px;
-
   line-height: 1.7;
 }
 
@@ -259,70 +258,79 @@ p {
    Active Navigation Buttons
    ========================= */
 
-/* About Me */
-.nav-links a.active-about {
-  background: var(--about-accent);
-
-  border-color: var(--about-accent);
-}
-
-.nav-links a.active-about:hover {
-  background: #2DD4BF;
-
-  border-color: #2DD4BF;
-}
-
-
 /* Projects */
-.nav-links a.active-projects {
+
+.nav-links .active-projects {
   background: var(--projects-accent);
 
   border-color: var(--projects-accent);
+
+  color: #FFFFFF !important;
 }
 
-.nav-links a.active-projects:hover {
+.nav-links .active-projects:hover {
   background: #A78BFA;
 
   border-color: #A78BFA;
-}
 
-
-/* Blog */
-.nav-links a.active-blog {
-  background: var(--blog-accent);
-
-  border-color: var(--blog-accent);
-}
-
-.nav-links a.active-blog:hover {
-  background: #FBBF24;
-
-  border-color: #FBBF24;
+  box-shadow: 0 8px 20px rgba(139, 92, 246, 0.25);
 }
 
 
 /* Links */
-.nav-links a.active-links {
+
+.nav-links .active-links {
   background: var(--links-accent);
 
   border-color: var(--links-accent);
+
+  color: #FFFFFF !important;
 }
 
-.nav-links a.active-links:hover {
+.nav-links .active-links:hover {
   background: #F472B6;
 
   border-color: #F472B6;
+
+  box-shadow: 0 8px 20px rgba(236, 72, 153, 0.25);
 }
 
 
-/* =========================
-   Home Navigation
-   ========================= */
+/* Blog */
 
-.nav-links a.active-home {
-  background: var(--blue);
+.nav-links .active-blog {
+  background: var(--blog-accent);
 
-  border-color: var(--blue);
+  border-color: var(--blog-accent);
+
+  color: #FFFFFF !important;
+}
+
+.nav-links .active-blog:hover {
+  background: #2DD4BF;
+
+  border-color: #2DD4BF;
+
+  box-shadow: 0 8px 20px rgba(20, 184, 166, 0.25);
+}
+
+
+/* About Me */
+
+.nav-links .active-about {
+  background: var(--about-accent);
+
+  border-color: var(--about-accent);
+
+  color: #FFFFFF !important;
+}
+
+.nav-links .active-about:hover {
+  background: #FBBF24;
+
+  border-color: #FBBF24;
+
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.25);
 }
 
 
@@ -356,7 +364,7 @@ section > p {
 
 
 /* =========================
-   Featured Projects
+   Featured Projects - Index
    ========================= */
 
 .featured-projects {
@@ -375,6 +383,8 @@ section > p {
   display: flex;
 
   flex-direction: column;
+
+  min-width: 0;
 }
 
 
@@ -384,8 +394,6 @@ section > p {
 
 .featured-project .project-link {
   display: flex;
-
-  flex-direction: column;
 
   align-items: center;
   justify-content: center;
@@ -429,27 +437,13 @@ section > p {
 
 
 /* =========================
-   Project Click Text
-   ========================= */
-
-.project-click-text {
-  display: block;
-
-  margin-top: 5px;
-
-  font-size: 13px;
-  font-weight: 500;
-
-  opacity: 0.9;
-}
-
-
-/* =========================
    Featured Project Images
    ========================= */
 
 .featured-project > a:not(.project-link) {
   display: block;
+
+  box-sizing: border-box;
 
   background: var(--card);
 
@@ -486,7 +480,7 @@ section > p {
 
 
 /* =========================
-   Project Visual Placeholders
+   Project Placeholder
    ========================= */
 
 .project-placeholder {
@@ -505,8 +499,6 @@ section > p {
 
   border: 1px solid var(--border);
 
-  border-top: none;
-
   border-radius: 0 0 10px 10px;
 
   color: var(--text-muted);
@@ -523,7 +515,7 @@ section > p {
 
 
 /* =========================
-   Projects Page
+   Project Page
    ========================= */
 
 .projects-page {
@@ -542,6 +534,8 @@ section > p {
   display: flex;
 
   flex-direction: column;
+
+  min-width: 0;
 }
 
 
@@ -598,64 +592,6 @@ section > p {
 
 
 /* =========================
-   Project Repository Button
-   ========================= */
-
-.project-repo {
-  display: block;
-
-  width: 100%;
-
-  margin: 0 0 30px;
-}
-
-.project-repo-button {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-
-  box-sizing: border-box;
-
-  min-height: 70px;
-
-  color: #FFFFFF !important;
-  background: var(--blue);
-
-  font-size: 17px;
-  font-weight: 700;
-
-  text-align: center;
-
-  text-decoration: none !important;
-
-  padding: 15px 18px;
-
-  border: 1px solid var(--blue);
-
-  border-radius: 8px;
-
-  transition: all 0.2s ease;
-}
-
-.project-repo-button:hover {
-  color: #FFFFFF !important;
-
-  background: var(--hover);
-
-  border-color: var(--hover);
-
-  text-decoration: none !important;
-
-  transform: translateY(-3px);
-
-  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
-}
-
-
-/* =========================
    Project Visuals
    ========================= */
 
@@ -691,6 +627,60 @@ section > p {
 
 
 /* =========================
+   Project Repository Button
+   ========================= */
+
+.project-repo {
+  width: 100%;
+
+  margin: 10px 0 35px;
+}
+
+.project-repo-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  min-height: 70px;
+
+  box-sizing: border-box;
+
+  color: #FFFFFF !important;
+  background: var(--blue);
+
+  font-size: 17px;
+  font-weight: 700;
+
+  text-align: center;
+
+  text-decoration: none !important;
+
+  border: 1px solid var(--blue);
+
+  border-radius: 8px;
+
+  transition: all 0.2s ease;
+}
+
+.project-repo-button:hover {
+  color: #FFFFFF !important;
+
+  background: var(--hover);
+
+  border-color: var(--hover);
+
+  text-decoration: none !important;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
+}
+
+
+/* =========================
    Project Graphs
    ========================= */
 
@@ -703,15 +693,15 @@ section > p {
 
   height: auto;
 
+  margin: 20px 0 35px;
+
   box-sizing: border-box;
 
-  margin: 25px 0 35px;
+  background: #FFFFFF;
 
   border-radius: 10px;
 
   border: 1px solid var(--border);
-
-  background: #FFFFFF;
 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
@@ -780,6 +770,87 @@ section > p {
   transform: translateY(-4px);
 
   box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+}
+
+
+/* =========================
+   Resource Links Page
+   ========================= */
+
+.resource-links {
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.resource-links a {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 110px;
+
+  box-sizing: border-box;
+
+  background: var(--card);
+
+  color: var(--text);
+
+  text-decoration: none !important;
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 25px;
+
+  text-align: center;
+
+  transition: all 0.2s ease;
+}
+
+.resource-links a:hover {
+  background: #252F4A;
+
+  border-color: var(--links-accent);
+
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.18);
+
+  text-decoration: none !important;
+}
+
+.resource-links strong {
+  color: #FFFFFF;
+
+  font-size: 21px;
+  font-weight: 700;
+
+  margin-bottom: 8px;
+}
+
+.resource-links span {
+  color: var(--text-muted);
+
+  font-size: 15px;
+
+  line-height: 1.5;
+}
+
+.resource-links a:hover strong {
+  color: #F472B6;
+}
+
+.resource-links a:hover span {
+  color: #FFFFFF;
 }
 
 
@@ -894,14 +965,12 @@ a:hover {
     border-radius: 10px 10px 0 0;
   }
 
-  .project-click-text {
-    font-size: 12px;
-
-    margin-top: 4px;
-  }
-
   .featured-project img {
     height: 220px;
+  }
+
+  .featured-project > a:not(.project-link) {
+    padding: 8px;
   }
 
 
@@ -939,21 +1008,15 @@ a:hover {
      ========================= */
 
   .project-repo {
-    width: 100%;
-
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .project-repo-button {
-    width: 100%;
-
-    box-sizing: border-box;
-
     min-height: 60px;
 
-    font-size: 15px;
+    font-size: 16px;
 
-    padding: 12px 18px;
+    padding: 14px 16px;
   }
 
 
@@ -975,9 +1038,9 @@ a:hover {
   .project-graph {
     width: 100%;
 
-    height: auto;
+    margin: 15px 0 30px;
 
-    margin: 20px 0 30px;
+    border-radius: 8px;
   }
 
 
@@ -994,6 +1057,31 @@ a:hover {
     height: 240px;
 
     margin: 0 0 30px 0;
+  }
+
+
+  /* =========================
+     Mobile Resource Links
+     ========================= */
+
+  .resource-links {
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+  }
+
+  .resource-links a {
+    min-height: 95px;
+
+    padding: 20px;
+  }
+
+  .resource-links strong {
+    font-size: 19px;
+  }
+
+  .resource-links span {
+    font-size: 14px;
   }
 
 }
