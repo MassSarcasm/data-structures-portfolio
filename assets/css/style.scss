@@ -16,12 +16,11 @@
   --border: #263653;
   --hover: #60A5FA;
 
-  /* Active Page Colors */
-  --active-home: #06B6D4;
-  --active-about: #8B5CF6;
-  --active-projects: #14B8A6;
-  --active-blog: #F59E0B;
-  --active-links: #EC4899;
+  /* Page-specific accent colors */
+  --about-accent: #14B8A6;
+  --projects-accent: #8B5CF6;
+  --blog-accent: #F59E0B;
+  --links-accent: #EC4899;
 }
 
 
@@ -33,6 +32,7 @@ html,
 body {
   background: var(--navy);
   color: var(--text);
+
   margin: 0;
   padding: 0;
 }
@@ -50,6 +50,7 @@ body {
 .wrapper {
   width: 100%;
   max-width: none;
+
   margin: 0;
   padding: 0;
 }
@@ -64,7 +65,9 @@ footer {
 
 section {
   width: auto;
+
   float: none;
+
   padding: 0;
   margin: 0;
 }
@@ -76,7 +79,9 @@ section {
 
 section {
   max-width: 1100px;
+
   margin: 0 auto;
+
   padding: 50px 40px 80px;
 }
 
@@ -89,6 +94,7 @@ section {
   display: inline-block;
 
   color: var(--text);
+
   font-size: 42px;
   font-weight: 800;
 
@@ -101,7 +107,9 @@ section {
 
 .site-title:hover {
   color: var(--cyan);
+
   text-decoration: none;
+
   transform: translateX(3px);
 }
 
@@ -144,6 +152,7 @@ section {
 
 .profile-links a:hover {
   color: #FFFFFF !important;
+
   background: var(--blue);
 
   border-color: var(--blue);
@@ -156,6 +165,7 @@ section {
 .download-text {
   font-size: 12px;
   font-weight: 500;
+
   opacity: 0.85;
 }
 
@@ -167,24 +177,30 @@ section {
 h1 {
   margin-top: 0;
   margin-bottom: 25px;
+
   letter-spacing: -1px;
 }
 
 h2 {
   color: var(--text);
+
   font-size: 30px;
+
   margin-top: 45px;
   margin-bottom: 25px;
 }
 
 h3 {
   color: var(--cyan);
+
   font-size: 22px;
 }
 
 p {
   color: var(--text-muted);
+
   font-size: 17px;
+
   line-height: 1.7;
 }
 
@@ -218,6 +234,7 @@ p {
   padding: 13px 25px;
 
   border-radius: 8px;
+
   border: 1px solid var(--blue);
 
   transition: all 0.2s ease;
@@ -242,59 +259,70 @@ p {
    Active Navigation Buttons
    ========================= */
 
-.nav-links a.active-home {
-  background: var(--active-home);
-  border-color: var(--active-home);
-}
-
+/* About Me */
 .nav-links a.active-about {
-  background: var(--active-about);
-  border-color: var(--active-about);
-}
+  background: var(--about-accent);
 
-.nav-links a.active-projects {
-  background: var(--active-projects);
-  border-color: var(--active-projects);
-}
-
-.nav-links a.active-blog {
-  background: var(--active-blog);
-  border-color: var(--active-blog);
-}
-
-.nav-links a.active-links {
-  background: var(--active-links);
-  border-color: var(--active-links);
-}
-
-
-/* =========================
-   Active Navigation Hover
-   ========================= */
-
-.nav-links a.active-home:hover {
-  background: #22D3EE;
-  border-color: #22D3EE;
+  border-color: var(--about-accent);
 }
 
 .nav-links a.active-about:hover {
-  background: #A78BFA;
-  border-color: #A78BFA;
+  background: #2DD4BF;
+
+  border-color: #2DD4BF;
+}
+
+
+/* Projects */
+.nav-links a.active-projects {
+  background: var(--projects-accent);
+
+  border-color: var(--projects-accent);
 }
 
 .nav-links a.active-projects:hover {
-  background: #2DD4BF;
-  border-color: #2DD4BF;
+  background: #A78BFA;
+
+  border-color: #A78BFA;
+}
+
+
+/* Blog */
+.nav-links a.active-blog {
+  background: var(--blog-accent);
+
+  border-color: var(--blog-accent);
 }
 
 .nav-links a.active-blog:hover {
   background: #FBBF24;
+
   border-color: #FBBF24;
+}
+
+
+/* Links */
+.nav-links a.active-links {
+  background: var(--links-accent);
+
+  border-color: var(--links-accent);
 }
 
 .nav-links a.active-links:hover {
   background: #F472B6;
+
   border-color: #F472B6;
+}
+
+
+/* =========================
+   Home Navigation
+   ========================= */
+
+.nav-links a.active-home {
+  background: var(--blue);
+
+  border-color: var(--blue);
 }
 
 
@@ -304,6 +332,7 @@ p {
 
 hr {
   border: 0;
+
   border-top: 1px solid var(--border);
 
   margin: 35px 0;
@@ -327,7 +356,7 @@ section > p {
 
 
 /* =========================
-   Featured Projects - Index
+   Featured Projects
    ========================= */
 
 .featured-projects {
@@ -347,6 +376,11 @@ section > p {
 
   flex-direction: column;
 }
+
+
+/* =========================
+   Featured Project Buttons
+   ========================= */
 
 .featured-project .project-link {
   display: flex;
@@ -401,10 +435,9 @@ section > p {
 .project-click-text {
   display: block;
 
-  margin-top: 6px;
+  margin-top: 5px;
 
   font-size: 13px;
-
   font-weight: 500;
 
   opacity: 0.9;
@@ -412,7 +445,7 @@ section > p {
 
 
 /* =========================
-   Featured Project Visual
+   Featured Project Images
    ========================= */
 
 .featured-project > a:not(.project-link) {
@@ -449,6 +482,43 @@ section > p {
   display: block;
 
   border-radius: 6px;
+}
+
+
+/* =========================
+   Project Visual Placeholders
+   ========================= */
+
+.project-placeholder {
+  width: 100%;
+
+  height: 220px;
+
+  box-sizing: border-box;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: var(--card);
+
+  border: 1px solid var(--border);
+
+  border-top: none;
+
+  border-radius: 0 0 10px 10px;
+
+  color: var(--text-muted);
+
+  font-size: 16px;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+.project-placeholder span {
+  opacity: 0.7;
 }
 
 
@@ -528,39 +598,52 @@ section > p {
 
 
 /* =========================
-   Project Visual Placeholders
+   Project Repository Button
    ========================= */
 
-.project-placeholder {
-  width: 100%;
-
-  height: 220px;
-
-  box-sizing: border-box;
-
+.project-repo {
   display: flex;
+
+  justify-content: flex-start;
+
+  margin: 0 0 30px;
+}
+
+.project-repo-button {
+  display: inline-flex;
 
   align-items: center;
   justify-content: center;
 
-  background: var(--card);
-
-  border: 1px solid var(--border);
-
-  border-top: none;
-
-  border-radius: 0 0 10px 10px;
-
-  color: var(--text-muted);
+  color: #FFFFFF !important;
+  background: var(--blue);
 
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
 
-  margin: 0;
+  text-decoration: none !important;
+
+  padding: 12px 22px;
+
+  border: 1px solid var(--blue);
+
+  border-radius: 8px;
+
+  transition: all 0.2s ease;
 }
 
-.project-placeholder span {
-  opacity: 0.7;
+.project-repo-button:hover {
+  color: #FFFFFF !important;
+
+  background: var(--hover);
+
+  border-color: var(--hover);
+
+  text-decoration: none !important;
+
+  transform: translateY(-3px);
+
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25);
 }
 
 
@@ -570,11 +653,13 @@ section > p {
 
 .project-visual {
   width: 100%;
+
   height: 400px;
 
   box-sizing: border-box;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -605,15 +690,20 @@ section > p {
   display: block;
 
   width: 100%;
-  max-width: 1000px;
+
+  max-width: 100%;
 
   height: auto;
 
-  margin: 25px auto 30px;
+  box-sizing: border-box;
+
+  margin: 25px 0 35px;
 
   border-radius: 10px;
 
   border: 1px solid var(--border);
+
+  background: #FFFFFF;
 
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
@@ -686,86 +776,6 @@ section > p {
 
 
 /* =========================
-   Resource Links
-   ========================= */
-
-.resource-links {
-  display: grid;
-
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-
-  gap: 20px;
-
-  max-width: 900px;
-
-  margin: 35px auto 0;
-}
-
-.resource-links a {
-  display: flex;
-
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
-
-  min-height: 130px;
-
-  box-sizing: border-box;
-
-  color: #FFFFFF !important;
-  background: var(--card);
-
-  text-align: center;
-  text-decoration: none !important;
-
-  border: 1px solid var(--border);
-
-  border-radius: 10px;
-
-  padding: 25px;
-
-  transition: all 0.2s ease;
-}
-
-.resource-links a:hover {
-  color: #FFFFFF !important;
-
-  background: var(--blue);
-
-  border-color: var(--blue);
-
-  text-decoration: none !important;
-
-  transform: translateY(-4px);
-
-  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
-}
-
-.resource-links strong {
-  color: var(--cyan);
-
-  font-size: 21px;
-
-  margin-bottom: 8px;
-}
-
-.resource-links a:hover strong {
-  color: #FFFFFF;
-}
-
-.resource-links span {
-  color: var(--text-muted);
-
-  font-size: 15px;
-}
-
-.resource-links a:hover span {
-  color: #FFFFFF;
-}
-
-
-/* =========================
    General Links
    ========================= */
 
@@ -787,6 +797,11 @@ a:hover {
   section {
     padding: 30px 20px 60px;
   }
+
+
+  /* =========================
+     Mobile Site Title
+     ========================= */
 
   .site-title {
     font-size: 34px;
@@ -874,7 +889,7 @@ a:hover {
   .project-click-text {
     font-size: 12px;
 
-    margin-top: 5px;
+    margin-top: 4px;
   }
 
   .featured-project img {
@@ -912,6 +927,29 @@ a:hover {
 
 
   /* =========================
+     Mobile Project Repository
+     ========================= */
+
+  .project-repo {
+    justify-content: flex-start;
+
+    margin-bottom: 25px;
+  }
+
+  .project-repo-button {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    font-size: 15px;
+
+    padding: 11px 18px;
+
+    text-align: center;
+  }
+
+
+  /* =========================
      Mobile Project Visuals
      ========================= */
 
@@ -919,8 +957,6 @@ a:hover {
     height: 280px;
 
     font-size: 16px;
-
-    margin: 20px 0 25px;
   }
 
 
@@ -933,36 +969,7 @@ a:hover {
 
     height: auto;
 
-    margin: 20px auto 25px;
-
-    border-radius: 8px;
-  }
-
-
-  /* =========================
-     Mobile Resource Links
-     ========================= */
-
-  .resource-links {
-    grid-template-columns: 1fr;
-
-    gap: 15px;
-
-    margin-top: 25px;
-  }
-
-  .resource-links a {
-    min-height: 110px;
-
-    padding: 20px;
-  }
-
-  .resource-links strong {
-    font-size: 19px;
-  }
-
-  .resource-links span {
-    font-size: 14px;
+    margin: 20px 0 30px;
   }
 
 
