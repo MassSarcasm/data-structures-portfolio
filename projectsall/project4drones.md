@@ -85,7 +85,7 @@ To accurately train my model I needed "watt-hours" which is used to show how muc
 
 Consequences of wrong/under predictions can lead to safety issues and loss of equipment. If a drone would to run out of battery mid flight several issues present itself. The drone and or package itself can be damaged or lost. The drone could also cause damage to property, for example it runs out of battery over someone's property or vehicle. Overestimating is safer in this specific research problem.
 
-Real world usage of this model can be used as a planning aid. For example, Walmart has started using drones to deliver packages to houses.
+Real world usage of this model can be used as a planning aid. For example, Walmart has started using drones to deliver packages to houses. Have a model that can predict battery consumption can be vastly important to this specific example to help guarantee more deliveries and prevent any loss described above.
 
 ---
 
