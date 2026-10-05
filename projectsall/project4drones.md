@@ -55,7 +55,7 @@ I chose this topic as it pertains to my personal hobbies in flying different kin
 
 Depending on the types of drones and several features, we can predict the energy watt-hours consumed from a battery. This can help narrow reduce and relieve the amount of work needed when carrying out UAV drone procedures. There are an overwhelming amount of factors that go into play when using an unmanned UAV drone to do payload delivery. So if we can create a prediction model that can predict how many watt-hours consumed from a battery, that helps reduce several calculations down into one accurate prediction model.
 
-That is what my models do in the demonstration below. Using flight data from Carnegie Mellon University (CMU) (Rodrigues et al., 2021), I had took thousands of flight logs and was able to use that data to create a prediction of how much a battery is consumed per flight depending on features such as payload weight, drone speed, and drone altitude using linear regression and decision trees. I was able to take the data from then CSV and create my own variable for watt hours, which I will discuss further in how I handled the data.
+That is what my models do in the demonstration below. Using flight data from Carnegie Mellon University (CMU) (Rodrigues et al., 2021), I used about 240,000 sensor readings from 181 flight logs and was able to use that data to create a prediction of how much a battery is consumed per flight depending on features such as payload weight, drone speed, and drone altitude using linear regression and decision trees. I was able to take the data from then CSV and create my own variable for watt hours, which I will discuss further in how I handled the data.
 
 ---
 
@@ -67,11 +67,11 @@ I started by taking the csv file and checking for any missing values, which ther
 
 The power for drones can be represented multiple ways. The amount of wattage a drone consumes is typically referred to as "watt-hours". Being so, I had to create my own variable to calculate the amount of watt-hours since the csv did not have that. No problem, I had enough data to be able to do that.
 
-The csv had "battery_voltage" and "battery_current" which allowed me to create my own wattage variable called "power_W", W being for watts. During each flight, the drones sensor is constantly recording and reporting data by the second. To consolidate that I grouped the data by it's "flight" and "time" which shows the seconds between readings within each flight.
+The csv had "battery_voltage" and "battery_current" which allowed me to create my own wattage variable called "power_W", W being for watts. During each flight, the drones sensor is constantly recording and reporting about five times per second. To consolidate that I calculated the time between readings within each flight to a variable called "dt".
 
 I then created a variable for Joules called "energy_J" by multiplying "power_W" by "dt" (battery voltage x battery current X time step), which is needed to calculate watt-hours.
 
-Now I can finally create watt-hours and group out data. Since each flight is reporting data several times throughout the whole flight I simply divide "power_J" by 3600 to get watt hours and aggregate the data to finalize the flight logs needed to train my models.
+Now I can finally create watt-hours and group out data. Since each flight is reporting data several times throughout the whole flight I simply divide "energy_j" by 3600 to get watt hours and aggregate the data to finalize the flight logs needed to train my models.
 
 I can now start to train linear regression and decision tree models using watt hours in combination with the features such as drone speed, payload weight, and altitude.
 
@@ -79,7 +79,7 @@ I can now start to train linear regression and decision tree models using watt h
 
 ## Ethics and Limitations
 
-All of my data was ethically sourced. The Carnegie Mellon University has the documentation and records for the flights made available to he public for use. While all the data needed was ethically pulled I did encounter some limitations.
+All of my data was ethically sourced. The Carnegie Mellon University has the documentation and records for the flights made available to the public for use. While all the data needed was ethically pulled I did encounter some limitations.
 
 To accurately train my model I needed "watt-hours" which is used to show how much power a drone consumes from a battery. I had to create this variable myself and was able to achieve this in python.
 
@@ -125,7 +125,7 @@ The results proved to be fairly successful for the models trained. Each model wa
 
 I ended up removing average wind as a feature being it showed no clear relationship with energy. I verified this showing model improvement without it vs with it.
 
-The MAE, which is the average prediction error in watt-hours (Wh), had a baseline of 3.72 before training the model. After training the linear regression model improved to a MAE of 1.29 and R² pf 0.895. The decision tree model performed best with a MAE of 0.56 and R² of 0.970 with an 85% improvement from the baseline. Speed and altitude had the biggest effect on the trees with payload weight being the least.
+The MAE, which is the average prediction error in watt-hours (Wh), had a baseline of 3.72 before training the model. After training the linear regression model improved to a MAE of 1.29 and R² of 0.895. The decision tree model performed best with a MAE of 0.56 and R² of 0.970 with an 85% improvement from the baseline. Speed and altitude had the biggest effect on the trees with payload weight being the least.
 After training each model, it has been shown that yes a drone's battery energy consumption can be predicted accurately by payload, speed, and altitude.
 
 
