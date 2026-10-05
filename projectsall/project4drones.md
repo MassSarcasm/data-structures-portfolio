@@ -55,7 +55,7 @@ I chose this topic as it pertains to my personal hobbies in flying different kin
 
 Depending on the types of drones and several features, we can predict the energy watt-hours consumed from a battery. This can help narrow reduce and relieve the amount of work needed when carrying out UAV drone procedures. There are an overwhelming amount of factors that go into play when using an unmanned UAV drone to do payload delivery. So if we can create a prediction model that can predict how many watt-hours consumed from a battery, that helps reduce several calculations down into one accurate prediction model.
 
-That is what my models do in the demonstration below. Using flight data from Carnegie Mellon University (CMU) (Rodriguez), I had took thousands of flight logs and was able to use that data to create a prediction of how much a battery is consumed per flight depending on features such as flight time, payload weight, drone speed, drone altitude, and the average wind speed using linear regression and decision trees. I was able to take the data from then CSV and create my own variable for watt hours, which I will discuss further in how I handled the data.
+That is what my models do in the demonstration below. Using flight data from Carnegie Mellon University (CMU) (Rodriguez), I had took thousands of flight logs and was able to use that data to create a prediction of how much a battery is consumed per flight depending on features such as payload weight, drone speed, and drone altitude using linear regression and decision trees. I was able to take the data from then CSV and create my own variable for watt hours, which I will discuss further in how I handled the data.
 
 ---
 
@@ -118,6 +118,9 @@ To accurately train my model I needed "watt-hours" which is used to show how muc
      class="project-graph">
 
 ---
+
+## Results
+
 
 ## APA Citations
 
