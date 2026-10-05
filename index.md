@@ -1,8 +1,11 @@
+---
+---
+
 # [Josiah Bradshaw](index.md){: .site-title}
 
 <div class="profile-links">
 
-<a href="{{ '/assets/resume.pdf' | relative_url }}" download>
+<a href="/assets/resume.pdf" download>
   Resume<br>
   <span class="download-text">Download</span>
 </a>
@@ -21,11 +24,11 @@
 
 <div class="nav-links">
 
-<a href="{{ '/' | relative_url }}" class="active-home">Home</a>
-<a href="{{ '/aboutme' | relative_url }}">About Me</a>
-<a href="{{ '/projects' | relative_url }}">Projects</a>
-<a href="{{ '/blog' | relative_url }}">Blog</a>
-<a href="{{ '/links' | relative_url }}">Links</a>
+<a href="/" class="active-home">Home</a>
+<a href="/aboutme">About Me</a>
+<a href="/projects">Projects</a>
+<a href="/blog">Blog</a>
+<a href="/links">Links</a>
 
 </div>
 
@@ -47,13 +50,13 @@ I'm particularly interested in using data to explore real-world problems, find m
 
   <div class="featured-project">
 
-    <a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
+    <a href="/projectsall/project2attend" class="project-link">
       Post Covid-19 High School Attendance Analysis
       <span class="project-click-text">Click Here to View Project</span>
     </a>
 
-    <a href="{{ '/projectsall/project2attend' | relative_url }}">
-      <img src="{{ '/assets/images/project2.png' | relative_url }}"
+    <a href="/projectsall/project2attend">
+      <img src="/assets/images/project2.png"
            alt="Post Covid-19 High School Attendance Analysis">
     </a>
 
@@ -61,14 +64,14 @@ I'm particularly interested in using data to explore real-world problems, find m
 
   <div class="featured-project">
 
-    <a href="{{ '/projectsall/project4drones' | relative_url }}" class="project-link">
-      Drone Analysis
+    <a href="/projectsall/project4drones" class="project-link">
+      Drone Analysis Prediction Model Project
       <span class="project-click-text">Click Here to View Project</span>
     </a>
 
-    <a href="{{ '/projectsall/project4drones' | relative_url }}">
-      <img src="{{ '/assets/images/Distro_Energy_Used.png' | relative_url }}"
-           alt="Drone Analysis">
+    <a href="/projectsall/project4drones">
+      <img src="/assets/images/Distro_Energy_Used.png"
+           alt="Drone Analysis Prediction Model Project">
     </a>
 
   </div>
