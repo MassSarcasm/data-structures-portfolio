@@ -83,6 +83,10 @@ All of my data was ethically sourced. The Carnegie Mellon University has the doc
 
 To accurately train my model I needed "watt-hours" which is used to show how much power a drone consumes from a battery. I had to create this variable myself and was able to achieve this in python.
 
+Consequences of wrong/under predictions can lead to safety issues and loss of equipment. If a drone would to run out of battery mid flight several issues present itself. The drone and or package itself can be damaged or lost. The drone could also cause damage to property, for example it runs out of battery over someone's property or vehicle. Overestimating is safer in this specific research problem.
+
+Real world usage of this model can be used as a planning aid. For example, Walmart has started using drones to deliver packages to houses.
+
 ---
 
 ## Visualizations
