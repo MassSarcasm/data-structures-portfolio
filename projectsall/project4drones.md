@@ -61,7 +61,7 @@ That is what my models do in the demonstration below. Using flight data from Car
 
 ## Data
 
-For this research project I used a detailed CSV document that detailed several variables and flights provided by CMU. The data itself was fairly neat and had most of the variables I needed. I had to create my own variable for "watt-hours" which I detail below.
+For this research project I chose to use linear regression and decision trees since watt-hours is a continuous number. For the data I used a detailed CSV document that detailed several variables and flights provided by CMU. The data itself was fairly neat and had most of the variables I needed. I had to create my own variable for "watt-hours" which I detail below.
 
 I started by taking the csv file and checking for any missing values, which there were none. I then took the CSV and sorted it by routes down to "R1" (route 1) narrowing down the csv to 182 flights. One single flight had a payload of 750g so it was removed as it was an outlier. I also ended up removing average wind as a feature from the model. As we can see per the scatter plot. Average wind speed did not show a consistency in energy consumed. We also have to consider since the sensor for this is on the drone, it could be picking up the drone's wind from the propellers. 
 
@@ -69,7 +69,7 @@ The power for drones can be represented multiple ways. The amount of wattage a d
 
 The csv had "battery_voltage" and "battery_current" which allowed me to create my own wattage variable called "power_W", W being for watts. During each flight, the drones sensor is constantly recording and reporting about five times per second. To consolidate that I calculated the time between readings within each flight to a variable called "dt".
 
-I then created a variable for Joules called "energy_J" by multiplying "power_W" by "dt" (battery voltage x battery current X time step), which is needed to calculate watt-hours.
+I then created a variable for Joules called "energy_J" by multiplying "power_W" by "dt" (battery voltage x battery current X time step), which is needed to calculate watt-hours. I was able to prevent leakage by only using battery voltage and current to calculate watt hours and not using those as features. 
 
 Now I can finally create watt-hours and group out data. Since each flight is reporting data several times throughout the whole flight I simply divide "energy_j" by 3600 to get watt hours and aggregate the data to finalize the flight logs needed to train my models.
 
