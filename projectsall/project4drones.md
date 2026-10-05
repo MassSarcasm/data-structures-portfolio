@@ -135,7 +135,7 @@ After training each model, it has been shown that yes a drone's battery energy c
 
 ---
 
-## AI Disclosure
+## Code & AI Disclosure
 AI was used, specifically Claude AI by Anthropic, Opus 5.5 to help create visuals for research question, help clean up typos, and help properly cite APA citations. GitHub link above provides link to Jupyter Notebook showing code and models trained. 
 
 
