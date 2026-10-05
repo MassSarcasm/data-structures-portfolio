@@ -65,6 +65,8 @@ For this research project I chose to use linear regression and decision trees si
 
 I started by taking the csv file and checking for any missing values, which there were none. I then took the csv data and sorted it by routes down to "R1" (route 1) narrowing down the csv to 182 flights. One single flight had a payload of 750g so it was removed as it was an outlier. I also ended up removing average wind as a feature from the model. As we can see per the scatter plot. Average wind speed did not show a consistency in energy consumed. We also have to consider since the sensor for this is on the drone, it could be picking up the drone's wind from the propellers. 
 
+I ended up removing average wind as a feature being it showed no clear relationship with energy which matches Rodrigues et al. (2022). I verified this showing model improvement without it vs with it.
+
 The power for drones can be represented multiple ways. The amount of wattage a drone consumes is typically referred to as "watt-hours". Being so, I had to create my own variable to calculate the amount of watt-hours since the csv did not have that. No problem, I had enough data to be able to do that.
 
 The csv had "battery_voltage" and "battery_current", multiplying those allowed me to create my own wattage variable called "power_W", W being for watts. During each flight, the drones sensor is constantly recording and reporting about five times per second. To consolidate that I calculated the time between readings within each flight to a variable called "dt".
@@ -126,9 +128,7 @@ Possible limitations to this problem could be that this is based off of one dron
 
 ## Results
 
-The results proved to be fairly successful for the models trained. Each model was trained on 144 flights and tested on 37 flights it had never seen. The baseline was a prediction of an average 21 watt hour for every flight.
-
-I ended up removing average wind as a feature being it showed no clear relationship with energy which matches Rodrigues et al. (2022). I verified this showing model improvement without it vs with it.
+The results proved to be fairly successful for the models trained. Each model was trained on 144 flights and tested on 37 flights it had never seen. The baseline for each model was a prediction of an average 21 watt hour for every flight without features. Then with features applied the model was trained giving its predictions. 
 
 The MAE, which is the average prediction error in watt-hours (Wh), had a baseline of 3.72 before training the model. After training the linear regression model improved to a MAE of 1.29 and R² of 0.895. The decision tree model performed best with a MAE of 0.56 and R² of 0.970 with an 85% improvement from the baseline. Speed and altitude had the biggest effect on the trees with payload weight being the least.
 After training each model, it has been shown that yes a drone's battery energy consumption can be predicted accurately by payload, speed, and altitude.
