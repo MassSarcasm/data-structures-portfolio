@@ -82,9 +82,9 @@ I can now start to train linear regression and decision tree models using watt h
 All of my data was ethically sourced. The Carnegie Mellon University has the documentation and records for the flights made available to the public for use. While all the data needed was ethically pulled I did encounter some limitations.
 To accurately train my model I needed "watt-hours" which is used to show how much power a drone consumes from a battery. I had to create this variable myself and was able to achieve this in python.
 
-Consequences of wrong/under predictions can lead to safety issues and loss of equipment. If a drone were to run out of battery mid flight several issues present itself. The drone and or package itself can be damaged or lost. The drone could also cause damage to property, for example it runs out of battery over someone's property or vehicle. Overestimating is safer in this specific research problem.
+Consequences of wrong/under predictions can lead to safety issues and loss of equipment. If a drone were to run out of battery mid flight several issues present themselves. The drone and or package itself can be damaged or lost. The drone could also cause damage to property, for example it runs out of battery over someone's property or vehicle. Overestimating is safer in this specific research problem.
 
-Real world usage of this model can be used as a planning aid. For example, companies such as Walmart has started using drones to deliver packages to houses. Having a model that can predict battery consumption can be vastly important to this specific example to help guarantee more deliveries and prevent any loss described above.
+Real world usage of this model can be used as a planning aid. For example, companies such as Walmart have started using drones to deliver packages to houses. Having a model that can predict battery consumption can be vastly important to this specific example to help guarantee more deliveries and prevent any loss described above.
 
 Possible limitations to this problem could be that this is based off of one drone model, the DJI Matrice 100, so this may not apply to other drones or additional calculations will be required to fit the model to that specific drone. More expansive testing could help improve model accuracy. So using more than one route or testing site could help improve accuracy. This model should be used as a planning aid in drone routes rather than as a specific guarantee.  
 
@@ -136,7 +136,7 @@ After training each model, it has been shown that yes a drone's battery energy c
 ---
 
 ## AI Disclosure
-AI was used, specifically Claude AI by Anthropic, Opus 5.5 to help create visuals for research question and help clean up typos. Git hub link above provides link to Jupyter Notebook showing code and models trained. 
+AI was used, specifically Claude AI by Anthropic, Opus 5.5 to help create visuals for research question, help clean up typos, and help properly cite APA citations. GitHub link above provides link to Jupyter Notebook showing code and models trained. 
 
 
 ## APA Citations
