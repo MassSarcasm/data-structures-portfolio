@@ -63,7 +63,7 @@ That is what my models do in the demonstration below. Using flight data from Car
 
 For this research project I used a detailed CSV document that detailed several variables and flights provided by CMU. The data itself was fairly neat and had most of the variables I needed. I had to create my own variable for "watt-hours" which I detail below.
 
-I started by taking the csv file and checking for any missing values, which there were none. I then took the CSV and sorted it by routes down to "R1" (route 1) narrowing down the csv to 182 flights.
+I started by taking the csv file and checking for any missing values, which there were none. I then took the CSV and sorted it by routes down to "R1" (route 1) narrowing down the csv to 182 flights. One single flight had a payload of 750g so it was removed as it was an outlier. I also ended up removing average wind as a feature from the model. As we can see per the scatter plot. Average wind speed did not show a consistency in energy consumed. We also have to consider since the sensor for this is on the drone, it could be picking up the drone's wind from the propellers. 
 
 The power for drones can be represented multiple ways. The amount of wattage a drone consumes is typically referred to as "watt-hours". Being so, I had to create my own variable to calculate the amount of watt-hours since the csv did not have that. No problem, I had enough data to be able to do that.
 
@@ -73,7 +73,7 @@ I then created a variable for Joules called "energy_J" by multiplying "power_W" 
 
 Now I can finally create watt-hours and group out data. Since each flight is reporting data several times throughout the whole flight I simply divide "power_J" by 3600 to get watt hours and aggregate the data to finalize the flight logs needed to train my models.
 
-I can now start to train models using watt hours in combination with the features such as drone speed, payload weight, altitude, and wind conditions.
+I can now start to train linear regression and decision tree models using watt hours in combination with the features such as drone speed, payload weight, and altitude.
 
 ---
 
