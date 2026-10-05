@@ -128,7 +128,7 @@ Possible limitations to this problem could be that this is based off of one dron
 
 The results proved to be fairly successful for the models trained. Each model was trained on 144 flights and tested on 37 flights it had never seen. The baseline was a prediction of an average 21 watt hour for every flight.
 
-I ended up removing average wind as a feature being it showed no clear relationship with energy. I verified this showing model improvement without it vs with it.
+I ended up removing average wind as a feature being it showed no clear relationship with energy which matches Rodrigues et al. (2022). I verified this showing model improvement without it vs with it.
 
 The MAE, which is the average prediction error in watt-hours (Wh), had a baseline of 3.72 before training the model. After training the linear regression model improved to a MAE of 1.29 and R² of 0.895. The decision tree model performed best with a MAE of 0.56 and R² of 0.970 with an 85% improvement from the baseline. Speed and altitude had the biggest effect on the trees with payload weight being the least.
 After training each model, it has been shown that yes a drone's battery energy consumption can be predicted accurately by payload, speed, and altitude.
