@@ -43,14 +43,34 @@ I'm particularly interested in using data to explore real-world problems, find m
 
 ## Featured Projects
 
-<div class="featured-project">
+<div class="featured-projects">
 
-<a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
-Post Covid-19 High School Attendance Analysis
-</a>
+  <div class="featured-project">
 
-<a href="{{ '/projectsall/project2attend' | relative_url }}">
-<img src="{{ '/assets/images/project2.png' | relative_url }}" alt="Post Covid-19 High School Attendance Analysis">
-</a>
+    <a href="{{ '/projectsall/project2attend' | relative_url }}" class="project-link">
+      Post Covid-19 High School Attendance Analysis
+      <span class="project-click-text">Click Here to View Project</span>
+    </a>
+
+    <a href="{{ '/projectsall/project2attend' | relative_url }}">
+      <img src="{{ '/assets/images/project2.png' | relative_url }}"
+           alt="Post Covid-19 High School Attendance Analysis">
+    </a>
+
+  </div>
+
+  <div class="featured-project">
+
+    <a href="{{ '/projectsall/project4drones' | relative_url }}" class="project-link">
+      Drone Analysis
+      <span class="project-click-text">Click Here to View Project</span>
+    </a>
+
+    <a href="{{ '/projectsall/project4drones' | relative_url }}">
+      <img src="{{ '/assets/images/Distro_Energy_Used.png' | relative_url }}"
+           alt="Drone Analysis">
+    </a>
+
+  </div>
 
 </div>
